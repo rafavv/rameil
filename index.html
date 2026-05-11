@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dr. Diana Rameil | Patientensicherheit</title>
+    <meta
+      name="description"
+      content="Geschütztes Konzeptdossier zur Weiterentwicklung der Patientensicherheit in der GKV."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="start">
+    <div class="password-screen" id="passwordScreen" aria-labelledby="passwordTitle">
+      <form class="password-panel" id="passwordForm">
+        <p class="eyebrow">Geschützter Prototyp</p>
+        <h1 id="passwordTitle">Dr. Diana Rameil</h1>
+        <p>Diese Website ist als vertrauliche Referenz- und Konzeptseite angelegt.</p>
+        <label for="passwordInput">Passwort</label>
+        <div class="password-row">
+          <input id="passwordInput" type="password" autocomplete="current-password" />
+          <button type="submit">Öffnen</button>
+        </div>
+        <p class="password-hint" id="passwordHint">Prototyp-Passwort: <strong>diana</strong></p>
+      </form>
+    </div>
+
+    <div class="site-shell" id="siteShell" hidden>
+      <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Zur Startseite">
+          <svg viewBox="0 0 440 92" height="92" aria-label="Dr. Diana Rameil" role="img"><text x="0" y="54" font-family="Urbanist,system-ui,sans-serif" font-weight="700" font-size="48" fill="#003e63">Dr. Diana Rameil</text><text x="2" y="84" font-family="Urbanist,system-ui,sans-serif" font-weight="500" font-size="23" fill="#01a1e3" letter-spacing="3.6">PATIENTENSICHERHEIT</text></svg>
+          
+        </a>
+        <div class="header-actions"><a class="contact-action" href="mailto:" aria-label="E-Mail schreiben"><svg class="header-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"></path><path d="m4 7 8 6 8-6"></path></svg><span>E-Mail</span></a><a class="contact-action" href="tel:" aria-label="Anrufen"><svg class="header-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 4.8 9.6 7c.6.6.7 1.5.2 2.2l-1 1.5c1.1 2.2 2.8 3.9 5 5l1.5-1c.7-.4 1.6-.3 2.2.2l2.1 2.1c.6.6.6 1.6 0 2.2l-1 1c-.8.8-2 .9-3 .6-6-1.8-10.7-6.5-12.5-12.5-.3-1.1-.1-2.2.6-3l1-1c.7-.6 1.6-.6 2.3 0Z"></path></svg><span>Telefon</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Menü öffnen"><span></span><span></span><span></span></button></div>
+        <nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+          
+          <a href="profil.html">Profil</a>
+          <a href="impuls.html">Fall Anni</a>
+          <a href="aktuell.html">Patientensicherheit</a>
+          <a href="analyse.html">Analyse</a>
+          <a href="konzept.html">Konzept &amp; Projekte</a>
+          <a href="kontakt.html">Kontakt</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero-slider" aria-label="Startseiten-Hero">
+          <div class="hero-slide is-active" data-slide>
+            <video autoplay muted loop playsinline poster="assets/serious-doctor-discussing-with-senior-couple-about-their-medical-documents-appointment-clinic.jpg">
+              <source src="assets/4778147_Doctors_Team_3840x2160.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="hero-slide" data-slide>
+            <video muted loop playsinline poster="assets/closeup-support-hands.jpg">
+              <source src="assets/4778145_Doctors_Team_3840x2160.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="hero-overlay"></div>
+          <div class="hero-copy hero-copy-over-video reveal">
+            <p class="eyebrow">Konzeptdossier</p>
+            <h1>Patientensicherheit in der GKV wirksam gestalten</h1>
+            <p class="hero-lede">
+              Sicherheit ist kein Zufall — sie ist eine Entscheidung.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="konzept.html">Konzept ansehen</a>
+            </div>
+          </div>
+          <button class="hero-scroll-hint" type="button" aria-label="Nach unten scrollen" onclick="document.getElementById('main-content').scrollIntoView({behavior:'smooth'})">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </button>
+          <div class="hero-dots" aria-label="Hero Slider Steuerung">
+            <button class="is-active" type="button" data-slide-button="0" aria-label="Slide 1 anzeigen"></button>
+            <button type="button" data-slide-button="1" aria-label="Slide 2 anzeigen"></button>
+            <button type="button" data-slide-button="2" aria-label="Slide 3 anzeigen"></button>
+          </div>
+        </section>
+
+        <section class="section" id="main-content">
+          <div class="page-intro reveal">
+            <div class="page-intro-label">
+              <p class="eyebrow">Leitidee</p>
+              <h2>Gemeinsam für mehr Sicherheit.</h2>
+            </div>
+            <p>
+              Konzept zur strukturierten Nutzung realer Behandlungsereignisse für
+              Prävention, Lehre und Vertrauen – zur Weiterentwicklung der Techniker
+              Krankenkasse als führende Akteurin im Bereich Patientensicherheit
+            </p>
+          </div>
+        </section>
+
+        <section class="section feature-strip" aria-label="Thematische Schwerpunkte">
+          <article class="feature-item reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 14h32v22H8z"></path><path d="m8 15 16 13 16-13"></path></svg>
+            <h2>Fallbasiertes Lernen</h2>
+          </article>
+          <article class="feature-item reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 7v34"></path><path d="M12 18h24"></path><path d="M14 30h20"></path><circle cx="24" cy="24" r="16"></circle></svg>
+            <h2>Prävention und Vertrauen</h2>
+          </article>
+          <article class="feature-item reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M14 8h15l7 7v25H14z"></path><path d="M29 8v8h7"></path><path d="M19 25h12M19 31h9"></path></svg>
+            <h2>Strukturierte Analyse</h2>
+          </article>
+          <article class="feature-item reveal">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 8 14v11c0 9 6.8 14.4 16 17 9.2-2.6 16-8 16-17V14z"></path><path d="m17 24 5 5 10-11"></path></svg>
+            <h2>Sichere Versorgung</h2>
+          </article>
+        </section>
+
+        <section class="section" aria-label="Unterseiten">
+          <div class="section-heading narrow">
+            <p class="eyebrow">Das Dossier im Überblick</p>
+            <h2>Alle Themen auf einen Blick.</h2>
+          </div>
+          <div class="page-teaser-grid">
+          <a class="teaser-card reveal image-tile portrait-card" href="profil.html">
+            <img src="assets/portrait-square.jpg" alt="Portraitfoto Dr. Diana Rameil" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Profil und Expertise</h2>
+              <p>Fachliche Laufbahn, Schnittstellenkompetenz und Original-Lebenslauf.</p>
+            </div>
+          </a>
+          <a class="teaser-card reveal image-tile" href="impuls.html">
+            <img src="assets/anni.jpg" alt="Fall Anni" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Fall Anni</h2>
+              <p>Der Fall Anni als sachlicher Impuls und biografischer Wendepunkt.</p>
+            </div>
+          </a>
+          <a class="teaser-card reveal image-tile" href="aktuell.html">
+            <img src="assets/closeup-support-hands.jpg" alt="Patientensicherheit" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Patientensicherheit</h2>
+              <p>Einordnung des Handlungsfeldes fuer GKV, Qualität und Vertrauen.</p>
+            </div>
+          </a>
+          <a class="teaser-card reveal image-tile" href="analyse.html">
+            <img src="assets/serious-doctor-discussing-with-senior-couple-about-their-medical-documents-appointment-clinic.jpg" alt="Ärztliches Beratungsgespräch mit Dokumenten" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Analyse der PSS</h2>
+              <p>Vollständige Originalanalyse der TK-Patientensicherheitssignale.</p>
+            </div>
+          </a>
+          <a class="teaser-card reveal image-tile" href="konzept.html">
+            <img src="assets/team-young-specialist-doctors-standing-corridor-hospital.jpg" alt="Konzept & Projekte" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Konzept & Projekte</h2>
+              <p>Projektideen und Beitrag zur Weiterentwicklung der Patientensicherheit.</p>
+            </div>
+          </a>
+          <a class="teaser-card reveal image-tile" href="kontakt.html">
+            <img src="assets/doctor-patient-discussing-current-health-examination-while-sitting-sunny-clinic-perfect-medical-service-hospital.jpg" alt="Abschluss und Kontakt" />
+            <div class="tile-overlay"></div>
+            <div class="tile-copy">
+              <h2>Abschluss und Kontakt</h2>
+              <p>Zusammenfassung, Gesprächsimpuls und Kontaktdaten.</p>
+            </div>
+          </a>
+          </div>
+        </section>
+      </main>
+            <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-copy">
+            <p class="eyebrow">Kontakt</p>
+            <h2>Dr. Diana Rameil</h2>
+            <p>Fachärztin für Frauenheilkunde und Geburtshilfe<br>Master of Health Administration<br>Patientensicherheitsbeauftragte</p>
+            <div class="footer-contact-links">
+              <a href="mailto:" aria-label="E-Mail schreiben">E-Mail</a>
+              <a href="tel:" aria-label="Anrufen">Telefon</a>
+            </div>
+          </div>
+          <form class="footer-form" id="contactForm" action="/api/contact" method="post" data-smtp-ready="true">
+            <input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>E-Mail</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              <span>Nachricht</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit">Nachricht senden</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="footer-bottom">Dr. Diana Rameil · 2026</div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

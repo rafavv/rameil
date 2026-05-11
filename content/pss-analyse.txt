@@ -1,0 +1,407 @@
+Patientensicherheitssignale der TK -  Ansatz und Analyse
+Kurzüberblick
+Im Rahmen einer fachlichen Analyse habe ich bestehende Patientensicherheitsformate der TK überprüft und darauf aufbauend ein anschlußfähiges Konzept zur Weiterentwicklung entwickelt.
+Im Kern geht es darum, reale Behandlungsereignisse systematisch zu nutzen, um daraus strukturierte Lernprozesse, gezielte Präventionsmaßnahmen sowie konkrete Verbesserungen in Versorgung und Ausbildung abzuleiten.
+Zentraler Bestandteil dieses Ansatzes ist ein konsequent schuldfreies Lernen zu ermöglichen, bei dem nicht die retrospektive Bewertung individueller Fehler im Vordergrund steht, sondern das Lernen an und aus dem Fall, in unterschiedlichen Ausbildungsabschnitten
+
+Systematische Analyse  der Patientensicherheitssignale
+Zur fundierten Einordnung der bestehenden Patientensicherheitssignale  wurde eine vollständige und strukturierte Analyse aller 22 veröffentlichten PSS  unter medizinischen, medizinrechtlichen und gesundheitsökonomischen Blickwinkeln durchgeführt. 	
+Ziel der Analyse war es, die Inhalte im Hinblick auf ihre fachliche Nachvollziehbarkeit, strukturelle Qualität sowie ihre praktische Nutzbarkeit für medizinische Fachkreise zu überprüfen.
+Die Analyse erfolgt wertungsfrei und fokussiert auf strukturelle und inhaltliche Aspekte der Darstellungen mit dem Ziel, bestehende Ansätze einzuordnen und Ansatzpunkte für eine gezielte Weiterentwicklung zu identifizieren. 
+Hierzu wurden sämtliche Fallbeschreibungen sowie alle enthaltenen Verlinkungen einzeln betrachtet und hinsichtlich Funktionalität, inhaltlicher Relevanz und Zielgerichtetheit bewertet.
+Jeder Link wurde daraufhin überprüft, ob er erreichbar ist und auf welche Inhalte er verweist.
+Die nachfolgende Darstellung dokumentiert die Ergebnisse dieser Analyse und dient als Grundlage für die Ableitung konkreter Ansatzpunkte zur Weiterentwicklung der Patientensicherheitssignale.
+
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS 1 Luft statt Kontrastmittel bei der Herzkatheteruntersuchung  - 10/2023 
+https://www.tk.de/resource/blob/2151500/3f87e322fcc15c1a12e9861a800251b5/tk-pat-sich-info-nr-01-herzkatheter-data.pdf
+Unter Bedeutung  findet sich, daß der im Fall geschilderte Fehler zu schwersten Schäden beim Patienten mit tödlichem Ausgang führte. 
+Geäußert wird die Sorge, die Gefahr, daß intrakardial Luft statt Kontrastmittel verabreicht wird, könnte auch in anderen Einrichtungen bestehen. Ohne sichere Schutzmaßnahmen könnte sich dieser Schaden immer wieder ereignen. 
+Zielgruppe: Alle Einrichtungen mit Herzkatheterplätzen.
+Verteiler: Kardiologische Fachgesellschaften in DACH (vermulich D, A, CH), APS, GQMG, Stiftung PS CH und Plattform Patientensicherheit , BFArM, Hersteller von Kontrastmitteln
+Fälle aus TK-Behandlungsfehlerregister: 
+Fall 2021-0035: Luftinjektion führt zu Herzstillstand mit nachfolgender Hirnschädigung und Tod
+Das ist dann auch die ganze Fallbeschreibung. 
+Durch das Thema  PSS 1 erfährt man immerhin noch, daß offenkundig versehentlich Luft statt Kontrastmittel im Rahmen einer Herzkatheteruntersuchung injiziert wurde, mit nachfolgend tödlichem Ausgang. 
+Sieht man sich hingegen die Veröffentlichung des PSS  Nr. 1 vom 03.01.2023 auf der Internetseite der Deutschen Gesellschaft für Patientensicherheit an 
+(https://patientensicherheit.de/luft-statt-kontrastmittel-bei-der-herzkatheteruntersuchung/)
+findet sich hier die Erläuterung, die dem PSS Nr.1 auf der TK-Seite  fehlt: 
+Bei einer Herzkatheteruntersuchung wurde versehentlich Luft statt Kontrastmittel injiziert, wodurch es zu einem Herzstillstand und schließlich zum Tod kam. Ursächlich hierfür war ein fehlender technischer Schutz vor Luftinjektionen. Das PSS zeigt, wie wichtig sichere Applikationssysteme und klare Abläufe sind, um solche vermeidbaren Komplikationen zu verhindern. 
+Leider zeigt das PSS Nr.1 eben genau das nicht, weil man als Leser überhaupt nicht erfährt, was genau passiert ist. Genauso wenig findet sich eine Angabe in dem PSS Nr. 1 darüber, ob es sich um ein häufigeres oder seltenes Problem im Rahmen von Herzkatheteruntersuchungen  handelt. 
+Anregungen zur Überprüfung an Klinik, Hersteller und BfArM, ob solche Fehler (welche genau?) bei Ihnen denkbar wären, wie verhindert wird, daß Kontrastmittelspritzen keine Luft enthalten, es wird weiterhin die Frage gestellt, ob es Sicherheitsempfehlungen gibt. 
+In Deutschland sind Luftembolien im Rahmen von Herzkathetern extrem selten, sie werden meist nur als Einzelfälle beschrieben:
+Die Verfahren gehören zu den häufigsten in Deutschland (0,9-1,1 Millionen pro Jahr), sind insgesamt sehr sicher mit niedrigen Komplikationsraten (0,1 - 0,3%) behaftet.  Aber selbst bei korrekter Technik bleibt ein „minimales Restrisiko“ nicht aus. Im Vergleich zu anderen Komplikationen (Blutung, Gefäßverletzung) spielen Luftembolien statistisch eine untergeordnete Rolle. Auch bei einer Kontrastmittelgabe im Rahmen einer Herzkatheteruntersuchung ist das Auftreten von Luftembolien extrem selten.
+Bei der Kontrastmittelgabe werden mehrere Sicherheitsmaßnahmen routinemäßig umgesetzt: Anwendung von strengen Standardprotokollen und Checks vor jeder Injektion, Spritzen und Leitungssysteme werden vollständig entlüftet, Verwendung von geschlossenen Systemen, oft automatische Injektoren, die Luft detektieren oder ausschließen.
+————————————————————————————————————————————————————————————————————————————————————
+
+
+
+PSS Nr. 2 – Misoprostol und Komplikationen bei Müttern und Kindern 06/2023
+https://www.tk.de/resource/blob/2151502/86c17154b1edc52cdb515b400e5c49c5/tk-pat-sich-info-nr-02-geburtseinleitung-data.pdf
+Die beschrieben Fälle aus der Vergangenheit beschreiben Komplikationen, die sich auch bei allen anderen zur Geburtseinleitung zugelassenen Medikamenten zeigen. Cytotec im 
+Off-Label -Use wies vor allem das Problem der ungenauen Dosierung auf, da es sich nicht sicher teilen und damit nicht sicher dosieren lies. 
+Seit 2017 ist das Misoprostol-Präparat Angusta EU-zugelassen und seit ca. 2018 in vielen Kliniken und Kreißsälen  regulär im Einsatz – damit fällt der Off-Label-Use von Cytotec weg, 
+es bietet sich eine bessere Dosierungssicherheit sowie eine höhere Standardisierung und Rechtssicherheit für Kliniken. 
+————————————————————————————————————————————————————————————————————————————————————
+PSS Nr. 3 – Fremdkörper im Patienten nach operativen Eingriffen 10/2203 und 
+PSS Nr. 11 – Verbleib von Katheter- bzw. Drainageteilen im Patientenkörper 08/2024
+https://www.tk.de/resource/blob/2151504/26b7d9c82bb84bc5754ec2d8f588f9b8/tk-pat-sich-info-nr-03-fremdkoerper-data.pdf
+https://www.tk.de/resource/blob/2178316/13317cf0e84e73c27a1cbb84114a8b6a/tk-pat-sich-info-nr-11-katheterteile-im-patienten-data.pdf
+Trotz aller installierter Maßnahmen, Zählprotokollen u.a. werden solche Fälle immer wieder auftreten. Es handelt sich hierbei im ein sog. Never-event, somit ein voll beherrschbares Risiko und damit eine Umkehr der Beweislast.
+Die drei Links in PSS Nr. 3 funktionieren nicht, bei PSS Nr. 11 funktioniert Link 1 nicht, Link 2 führt zu einem Abstract aus 2002 des British Journal of Anasthesia und Link 3 zeigt einen Artikel von 2010 aus der Zeitschrift für Herz-, Thorax- und Gefäßchirurgie (zurückgelassene Fremdkörper nach kardiovaskulärer Chirurgie) der Seite Springermedizin.de. Hier muß man sich anmelden, um einen Zugang zu erhalten.
+————————————————————————————————————————————————————————————————————————————————————
+PSS Nr. 4 – Verbrennungen von Patienten während der Eingriffe 10/2023
+https://www.tk.de/resource/blob/2151506/b5802ace4a5a5c68c916a253f31d3de8/tk-pat-sich-info-nr-04-verbrennungen-data.pdf
+Daß nur 2 Fälle beschrieben werden, einer mit Angabe der Jahreszahl, verdeutlicht die Seltenheit solcher Vorfälle. 
+Auch hier gilt: Bis auf sehr wenige Ausnahmefälle handelt es sich um das sog. vollbeherrschbare Risiko und führt zu einer Umkehr der Beweislast. 
+Der erste Link funktioniert nicht, der zweite verweist auf einen Artikel von 2019, wo sich ein Anwalt zur rechtlichen Einordnung von Verbrennungen äußert. 
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 5 - Nicht rechtzeitiges Erkennen von Sepsis 06/2023
+https://www.tk.de/resource/blob/2151508/f278b89c42115e6e51785db5d2b1e764/tk-pat-sich-info-nr-05-sepsis-data.pdf
+Das nicht oder nicht rechtzeitige Erkennen der Entstehung einer Sepsis, eines septischen Verlaufs, ist weltweit eins der dringendsten medizinischen Probleme. Es gibt viele Initiativen hierzu, dennoch stagnieren in Deutschland die Fallzahlen auf sehr hohem Niveau und lassen am ehesten Wissensdefizite oder auch „Lernlücken“ in der Aus- und Weiterbildung vermuten – hier müßte man  in die Einzelfallananlyse gehen und genau eruieren, wieso es immer wieder zu solchen Verläufen, wie den drei geschilderten, kommen kann.  
+Von 4 angeführten Links funktioniert nur einer, der Vierte ist nicht korrekt anklickbar angegeben.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 6 – Überdosierung von Methotrexat  10/2023
+https://www.tk.de/resource/blob/2151510/dec8a823ba8a8b234a3be6eaec97476d/tk-pat-sich-info-nr-06-methotrexat-data.pdf
+Sehr seltener vorkommender Behandlungsfehler. 
+Hier wird auch lediglich ein einziger Fall benannt. 
+Dieser Fall findet sich gleichfalls auch beim APS und unter „Drug Safety Mail 2023-50“ auf den Seiten der Arzneimittelkommission der deutschen Ärzteschaft, wissenschaftlicher Fachausschuss der Bundesärztekammer, veröffentlicht. 
+Unklar ist, aus welchem Jahr der beschriebene Fall der TK stammt, vermutlich aus 2023.
+ Es gibt für Methotrexat  Warnhinweise über „Der Arzneimittelbrief 05/2018“ und den sog. „Rote Hand-Brief-Methotrexat “ vom 25.11.2019. 
+Da Überdosierungen von Methotrexat als medizinischer Notfall gelten, ist Methotrexat als Hochrisikomedikament eingestuft, weshalb Doppelkontrollen und Clinical Decision Support-Systeme zum Einsatz kommen. 
+
+Abschließend finden sich drei wichtige Links angeführt: 
+Link 1  - die Seite existiert nicht. 
+Link 2 führt auf die Seite des Bundesinstituts für Arzneimittel und Medizinprodukte und nicht auf ein zielgerichtetes Thema oder einen Beitrag.
+Link 3  - die Seite existiert nicht. 
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 7 - Vermeidbare Schäden bei Worst Case Diagnosen  03/2024
+https://www.tk.de/resource/blob/2170742/f69756d0ae6fc787b831a39630d72270/tk-pat-sich-info-nr-07-worstcase-data.pdf
+Worst-Case-Diagnosen im Kontext der Patientensicherheit bezeichnen Situationen, in denen das schlimmste Szenario für einen Patienten eintritt, oft ausgelöst durch vermeidbare Fehler im Diagnose- oder Behandlungsprozeß. 
+Es handelt sich somit um den ungünstigsten Verlauf, der durch klinische Risiken und Behandlungsfehler entsteht. 
+Das PSS Nr. 7 führt eine ganz eigene Sicht auf die Bedeutung an. 
+Von den 5 angeführten, überwiegend nicht funktionierenden Links führt einer auf die Homepage  der Fachanwaltskanzlei Quirmbach und Partner, wo man direkt oben rechts im Bild ein rotes Feld für eine Ersteinschätzung anklicken kann. 
+Grundsätzlich dürfen gesetzliche Krankenkassen in ihren Beiträgen oder auf ihren Websites zu Anwaltskanzleien verlinken, so lange dies sachlich begründet ist und nicht gegen das Wettbewerbsrecht verstößt. Die Verlinkung darf nicht irreführend sein und auch keinen unzulässigen Wettbewerbsvorteil für einen bestimmten Anwalt schaffen (§1, §3 UWG).
+
+————————————————————————————————————————————————————————————————————————————————————-
+
+PSS Nr. 8 – Einsetzen nicht geeigneter Intraokularlinsen  03/2024
+https://www.tk.de/resource/blob/2170744/d7b5cf52f885aea463938c85a8f6e082/tk-pat-sich-info-nr-08-intraokularlinsen-data.pdf
+Fallbeschreibung 1 und 2 fallen unter das sog. vollbeherrschbare  Risiko und sind maximal informationsarm gehalten.  Fall Nr. 3 liest sich, als sei hier die abschließende Bewertung eines  Gutachtens übernommen worden.
+Es findet sich keine weiterführende Literatur oder Links, das Zielpublikum sollen alle Kliniken und Praxen im Bereich der Augenheilkunde sein, die Linsen implantieren.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 9 – Patiententransport mit unzureichender Sauerstoffversorgung  03/2024
+https://www.tk.de/resource/blob/2178310/b89abcb6f0b5587df728ee596c652983/tk-pat-sich-info-nr-09-transport-ohne-sauerstoff-data.pdf
+Unter  „Quelle“ findet sich ein Link zum CIRS-Berlin, hier Fall des Monats Mai 2022 – wozu soll dieser Link dienen?
+3 weiterführende Literaturangaben, die nicht verlinkt wurden, aber aus dem Internet stammen.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 10 – Mangelnde oder fehlende Dekubitusprophylaxe 03/2024
+https://www.tk.de/resource/blob/2178312/68f6ed78ff8aed8b680f278e0476487f/tk-pat-sich-info-nr-10-dekubitusprophylaxe-data.pdf
+Die Fallbeschreibungen  lesen sich wie Auszüge aus einem Gutachten.
+Weiterführende Verlinkung/Literatur:
+Link 1 führt auf eine Pflegeseite, wo sich medizinische Laien zum Thema Dekubitus belesen können.
+Link 2 funktioniert nicht.
+Link 3 führt auf eine TK-eigene Seite mit sehr guter Einführung in das Thema Dekubitus für Versicherte/Laien
+Link 4 erklärt gleichfalls, was ein Dekubitus ist.
+Link 5 führt zu einem Dekubitusratgeber
+Link 6 führt auf die Seite  Pschychrembel-online, und hier zur Definition der Braden-Skala, anhand derer man das Risiko für die Entstehung eines Dekubitus einschätzen kann. 
+Wenn man mehr als die kurze Definition zur Braden-Skala lesen möchte, steht einem für kurze Zeit eine Gratis-Version zur Verfügung, generell sind die Inhalte ansonsten nur über den Abschluß eines gebührenpflichtigen Abos verfügbar. 
+
+————————————————————————————————————————————————————————————————————————————————————
+PSS Nr. 12 . Eingriffsverwechselungen 08/2024
+https://www.tk.de/resource/blob/2180400/ea332abc9981e37fc1e840dbbd7b99a8/tk-pat-sich-info-nr-12-eingriffsverwechselungen-data.pdf
+Alle geschilderten Beispiele unterliegem dem sog. „Vollbeherrschbaren Risiko“ mit Beweislastumkehr. Jahresangaben finden sie nicht.
+Link 1: APS, Vermeidung einer Eingriffsverwechselung, 36 Seiten
+Link 2: APS-Never-Event-Liste als Download
+Link 3: Literatur von 2015
+Link 4: funktioniert nicht 
+Link 5: Patientensicherheit Schweiz, COM-Check sichere Chirurgie
+Link 6: Warnhinweis, führt auf eine unsichere Webseite
+Link 7: WHO, Surgical Safety Checklist, mehrere Downloads
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 13  - Schadensfallmeldungen im Zusammenhang mit einer Zahnbehandlung  09/2024
+https://www.tk.de/resource/blob/2181806/5bc979e337f555425d2e5521a1b52140/tk-pat-sich-info-nr-13-zahnarzt-data.pdf
+Fall Nr. 4 ist ein schwerer Behandlungsfehler im Rahmen einer ambulanten Vollnarkose, das Thema Zahnbehandlung spielt hier eine vollkommen untergeordnete Rolle.
+Fall Nr. 5 ist nicht vollständig beschrieben – es handelt sich tatsächlich um eine deutlich vorerkrankte Patientin, die bei nachfolgenden Beschwerden nach erfolgter  Zahnextraktion zunächst über Tablettenmitgabe an den Ehemann behandelt wurde. 
+
+Wichtige Verlinkungen/Literatur
+Link 1 und Link zwei führen auf die gleiche Seite 
+Link 3 funktioniert nicht
+Link 4 führt auf eine Seite für Zahnärzte von 2018  mit der Aufzählung von 15 Never-Events in der Zahnheilkunde, gefolgt von jeder Menge Werbung.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 14 – Reduktion von Diagnosefehlern  09/2024
+https://www.tk.de/resource/blob/2181808/8439e48ae4dc8d7a53345a7d9a27439f/tk-pat-sich-info-nr-14-diagnosefehler-data.pdf
+
+Wichtige Verlinkungen/Literatur:
+Link 1 funktioniert nicht 
+Link 2 führt auf auf die Seite der Patientensicherheit Schweiz, hier auf die Aktionswoche Patientensicherheit 2026, 14. - 18.09.2026, Thema: Nichtübertragbare Krankheiten: Mit Sicherheit gut begleiten - keine Relevanz zum PSS Nr. 14
+Link 3 führt auf eine Seite der WHO
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 15 Anwendung und Interpretation von CTG´s im Rahmen der  Geburtshilfe  04/2025
+https://www.tk.de/resource/blob/2194644/52a75abf89da8e39b25ad87d0dec2d18/tk-pat-sich-info-nr-15-ctgs-im-rahmen-der-geburtshilfe-data.pdf
+Wichtige Verlinkungen/Literatur:
+Link 1: S3-Leitlinie Fetale Überwachung in der Schwangerschaft
+Link 2; nationales Gesundheitsziel 2016 „Gesundheit rund um die Geburt“ - funktioniert nicht
+Link 3: Weltgesundheitstag 2025 – keinerlei Bezug zur Anwendung und Interpretation von 
+CTG´s im Rahmen der Geburtshilfe erkennbar
+Link 4: WHO-Seite, World-Patient-Safety-Day 17.09.2025: „Safe care for every newborn and every child“ – keinerlei Bezug zum Thema des PSS Nr. 15
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 16  – Erhöhung der Sicherheit während der Schwangerschaft  06/2025
+https://www.tk.de/resource/blob/2197780/b039f91af592ba1360af457f8a1839fd/tk-pat-sich-info-nr-16-erhoehung-der-sicherheit-waehrend-der-schwangerschaft-data.pdf
+Link 1: Übersichtsarbeit von 2009 im Deutschen Ärzteblatt online zur „Diagnostik und Therapie hypertensiver Schwangerschaftserkrankungen“ – zum Zeitpunkt der Veröffentlichung des PSS Nr. 16 14 Jahre alter Artikel, den man nur vollständig lesen kann, wenn man sich registriert.
+Link 2: Deutsches Ärzteblatt 2023, Artikel über Schwangerschaftsnachsorgeprogramm der Uni Leipzig – das PSS Nr. 16 bezieht sich auf die Erhöhung der Sicherheit während der Schwangerschaft und nicht auf eine Nachsorge.
+Link 3: Springermedizin, Die Intensivmedizin, Schwangerschaftsassoziierte Notfälle – also ein Kapital aus einem Buch für Intensivmediziner
+Link 4: Gelbe Liste, Pharmaindex – Langzeiteffekte hypertensiver Schwangerschaftserkrankungen – auch dieser Link hat keinerlei Bezug zum Thema des PSSS Nr.16, er bezieht sich auf mögliche Folgen für Mutter und Kind nach einer hypertensiven Erkrankung in der Schwangerschaft nach der Geburt.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 17 Erhöhung der Sicherheit während der Geburt  07/2025
+https://www.tk.de/resource/blob/2200188/97efb60190822aa35ab10efaff522df1/tk-pat-sich-info-nr-17-erhoehung-der-sicherheit-waehrend-der-geburt-data.pdf
+Fall 1 – Fehler bei der Entbindung: Keinerlei Informationen zum Jahr der Entbindung, Größe der Geburtsklinik, Anzahl möglicherweise vorausgegangener Schwangerschaften, Alter der Schwangeren,evtl. Risikofaktoren. Zudem keine Angabe, mit welchen Medikamenten hier eingeleitet wurde, wie lange die Entbindung dauerte, wie die CTG´s unter der Geburt aussahen, welchen APGAR- und Nabelschnur-pH-Wert das Kind aufwies und was es bei der Entbindung wog. Hypoxische Hirnschädigungen können auch bereits während der Schwangerschaft entstehen.
+Fall 2 -  Fehlende Aufklärung und zu späte ärztliche Betreuung bei bekannter Risikogeburt: Keinerlei Informationen zum Jahr der Entbindung, Größe der Geburtsklinik, Alter der werdenden Mutter, Anzahl vorangegangener Schwangerschaften und Entbindungen, Risiken und Komplikationen in vorherigen Schwangerschaften, Betreuung durch den niedergelassenen Frauenarzt. 
+Was soll einem der Satz“Die Schwangere erhielt die übliche Hebammenbetreuung, weil die Risikofaktoren für eine Schulterdystokie nicht wahrgenommen wurden“ sagen? 
+Welche Risikofaktoren wurden in diesem Fall von wem nicht wahrgenommen? 
+Was ist eine übliche Hebammenvorsorge und was hätte stattdessen passieren sollen? 
+Was ist hier eine „bekannte Risikogeburt“und wem war sie bekannt? Ist womöglich eine Risikoschwangerschaft gemeint und wenn ja, was waren die vorbekannten Risiken? 
+Welches Geburtsgewicht und welchen APGAR wies das Neugeborene auf? 
+
+Fall 3 – Patientin stirbt an Blutung wegen zu später zu später Verlegung vom Geburtshaus ins Krankenhaus: Als Ursache wird hier eine Uterusatonie nur vermutet, was sehr verwundert, denn bei einer  Frau, die unter der Geburt oder unmittelbar nach der Geburt verstirbt, handelt es sich nicht um eine natürliche Todesursache.  D.h. die Staatsanwaltschaft schaltet sich ein, es wird ein rechtsmedizinisches Gutachten zur Klärung der Umstände, die zum Tod geführt haben, in Auftrag gegeben. Damit scheint aktuell ungeklärt, ob es sich um eine Uterusatonie, Uterusruptur, Plazentaretention, höhergradige tiefe Geburtsverletzung oder sonstige Ursache für den erheblichen Blutverlust gehandelt hat. 
+
+Fall 4 – Geburtseinleitung: Keinerlei Informationen zu Geburtsjahr, Klinik, Patientin, Anzahl an vorangegangen Schwangerschaften und Entbindungen, Schwangerschaftswoche zum Zeitpunkt der Einleitung, welche Art von Diabetes vorlag. Keinerlei Angaben zur Dauer der Einleitung, keinerlei Angaben zum kindlichen Outcome des Neugeborenen, offenkundig erhielt es eine hypothermische Behandlung, die Prognose ist unklar. Offen sei, wie der Geburtsverlauf war und ob die Mutter ausreichend aufgeklärt war - was erstaunt, denn in der Fallbschreibung wird von auffälligen CTG´s und mehreren Maßnahmen zur Geburtseinleitung geschrieben, allerdings nicht welchen. Gleichfalls, daß eine Notsectio durchgeführt wurde, bei der eine Verletzung des rechten Harnleiters „erkannt“ wurde - gemeint ist höchstwahrscheinlich, daß diese Verletzung während des Eingriffes iatrogen entstanden ist, da der rechte Harnleiter anatomisch nah an der Gebärmutter verläuft. 
+Die Überschrift „Geburtseinleitung“ ist hier doch sehr allgemein gehalten. 
+
+Fall 5 – Fehlerhafte Geburtsüberwachung: Maximal minimalistische „Falldarstellung“
+ ohne jegliche Angabe zum Outcome des Kindes.
+
+Wichtige Verlinkungen/Literatur:
+Link 1  Führt die mit dem PSS Nr. 17 angesprochene Ärzteschaft nebst Hebammen auf die TK-eigene Seite „Häufige Komplikationen während der Geburt“, die als Information für medizinische Laien gedacht ist.
+Link 2-6 sind ausnahmslos verlinkte Leitlinien zu geburtshilflichen Themen, wobei Link 5 keine zugehörige Verlinkung  aufweist.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 18 – Sichere Gesundheitsversorgung von Kindern  09/2025
+https://www.tk.de/resource/blob/2203520/db59dd5fd7c236cf68ee3b872e812904/tk-pat-sich-info-nr-18-sichere-gesundheitsversorgung-von-kindern-data.pdf
+PSS Nr. 18 hat den gleichen Kinderfall wie PSS Nr. 7, dieser hätte wahrscheinlich auch unter Berücksichtigung aller Laborparameter in die PSS Nr. 5 eingeordnet werden können.
+
+Fall 4 – Schwerhörigkeit bei Kind mehr als 2 Jahre nicht erkannt: Das Kind hätte so oder so Hörgeräte benötigt. Unklar bleibt, um welche Art der Hörstörung es überhaupt geht. Gleichfalls sind gerade Hörtests mitunter erst unauffällig und im weiteren Verlauf zeigt sich eine Hörproblematik. 
+
+Fall 7 – unzureichende Überwachung eines Säuglings im Rahmen einer PEG-Anlage
+Es handelt sich hier im den Fall  meiner eigenen Tochter, der wesentlich mehr gravierende Fehler beinhaltet, als verkürzt dargestellt. Hier den Link zur Fallbeschreibung auf der Homepage einfügen!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! siehe der Fall Anni
+
+Wichtige Verlinkungen/Literatur:
+Link 1 – Welttag der Patientensicherheit
+Link 2 – Ratgeber des APS, „Sicher im Krankenhaus“ – kein Bezug zum Thema des PSS Nr. 18 
+Link 3 – Ärztezeitung online, kurzer Artikel von 2012 aus Oxford für die dortigen Hausärzte
+Link 4 – Artikel aus 2011 aus der Kinderanästhesiologie über Medikationsfehler – der Artikel ist 15 Jahre alt zum Zeitpunkt der Veröffentlichung des PSS Nr. 18
+Link 5 – Deutsche Gesellschaft für Kinderchirurgie – weist in einer kurzen Erklärung auf den Tag der Patientensicherheit und die Notwendigkeit der Verbesserung der Patientensicherheit für Kinder hin. 
+Link 6 – Eltern-Bildung – Kurzer Artikel, der vollkommen am Zielpublikum und dem Thema des PSS Nr. 18 vorbeigeht
+Link 7 – Springer Link, Einladung zu einem kostenlosen Webinar des Dresdner Universitätsklinikums Pädiatrie für den 05.07.2022 – drei Jahre vor Erscheinen des PSS Nr. 18
+Link 8 – führt zu einem Abstract eines Artikels, über eine pädiatrische Studie in Australien, der nicht frei zugänglich ist.
+Link 9 – TK-eigene Seite „Welche Ursache können Bauchschmerzen im Kindesalter haben“  - Informationsseite für medizinische Laien
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 19 – Thrombosen sicher erkennen und vermeiden  10/2025
+https://www.tk.de/resource/blob/2205038/5c0051c35c45e8bbcaf52eededf7a221/tk-pat-sich-info-nr-19-thrombosen-data.pdf
+  Wichtige Verlinkungen/Literatur:
+Link 1-3:  Leitlinien
+Link 4: Informationsbroschüre für Patienten
+Link 5: Informationsmaterial für Patienten
+Link 6: Ärztezeitung, inhaltsarmer Artikel von 2007
+Link 7: Pharmazeutische Zeitung, inhaltsarmer Artikel von 2006
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 20 – Sichere Indikationsstellung  11/2025
+https://www.tk.de/resource/blob/2207908/d904b31356514610c3c1699e9c42d6da/tk-pat-sich-info-nr-20-indikationsstellung-data.pdf
+Empfehlungen und Informationen vom Aktionsbündnis Patientensicherheit:
+5 Verlinkungen zum APS
+Weitere Verlinkungen/Literatur: 
+Link 6: Bayrisches Ärzteblatt 2016
+Link 7: Schweizerische Ärztezeitung 2012
+Link 8: Link funktioniert nicht
+Link 9: gebührenpflichtige Lernplattform Thieme via medici
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 21 – Kritische Ereignisse im Zusammenhang mit Tumorerkrankungen 02/2026
+https://www.tk.de/resource/blob/2211862/9c1454f405a324292d2ee01f5e4f3c3d/tk-pat-sich-info-nr-21-kritische-ereignisse-im-zusammenhang-mit-tumorerkrankungen-data.pdf
+Unter Bedeutung wird auf zahlreiche Fallbeispiele innerhalb der TK-Schadensfallmeldungen im Zusammenhang mit Tumorerkrankungen hingewiesen. 
+„Viele dieser Ereignisse seien „klassische“, vermeidbare Patientensicherheitsprobleme, die bei konsequenter Anwendung etablierter Sicherheitsmaßnahmen nicht auftreten sollten, mit hohem Schadenspotential verbunden sind. In der onkologischen Versorgung wirke sich das aufgrund geringer Fehlertoleranz und oft zeitkritischen Verläufen besonders gravierend aus. Bei Tumorerkrankungen handle es sich mit ca. 240.000 Todesfällen jährlich um die zweithäufigste Todesursache“.
+Auf Quellenangaben, nähere Angaben zu Fallzahlen und in welchen Zeitraum diese erhoben wurden, wird verzichtet. Gleichfalls wird nicht dargestellt, daß hier unter Tumorerkrankungen als Todesursache Krebserkrankungen zu verstehen sind. 
+„Die Ereignisse seien in vielen Fällen nicht auf individuelles Fehlverhalten zurück zu führen, sondern Ausdruck unzureichend gestalteter Prozesse, Schnittstellen und Verantwortlichkeiten“.
+Es schließt sich eine Aufzählung darüber an, welche Maßnahmen für eine sichere Versorgung entscheidend sind, mit der Erklärung, daß diese die aufgezählten Fehlerquellen reduzieren können und eine evidenzbasierte, patientenzentrierte Versorgung fördern. Öffentliche Aufklärung und niederschwelliger Zugang zur Diagnostik ist entscheidend, damit Patienten frühzeitig mit Symptomen vorstellig werden. 
+Auch hier wird auf Literatur- oder Quellenangaben verzichtet. 
+Unter möglichen beitragenden Faktoren (Fallstricke) werden 9 mögliche Fehlerquellen, die ursächlich für eine fehlerhafte Behandlung sein können, beschrieben.  Es findet sich keine Quellen- oder Literaturangabe. 
+Die nachfolgenden 7 Fälle beziehen sich jedoch nur auf die „Unterlassung oder unvollständige Befunderhebung“ und „Fehleinschätzung bzw. falsche Interpretation von Befunden, Symptomen bzw. Ergebnissen, was ein individuelles Fehlverhalten darstellt“.
+
+Fälle aus TK-Behandlungsfehlerregister 1 (welche Fälle finden sich in Register 1?)
+Fall 1: Keine Befundübermittlung trotz Verdacht auf Brustkrebs  – nach einer Biopsie teilte ein Gynäkologe mit, daß alles in Ordnung sei, wenn er sich nicht melden würde  -  welcher  histologische Befund ergab sich aus dieser Biopsie? 
+Im Rahmen einer späteren Schwangerschaft dieser Patienten, bei der sich ein Strang in der Brust gebildet haben soll, ist die Patientin zur Sonographie geschickt worden – wurde die Patienten zu einem Radiologen, ins Brustzentrum, zu einem anderen Gynäkologen geschickt?
+Auch hier soll es geheißen haben, man melde sich nur bei Auffälligkeiten - welcher Befund wurde von wem bei der Sonographie erhoben? Normalerweise wird der Untersuchungsbefund während oder direkt nach der Untersuchung mit der Patientin besprochen, nebst evtl. notwendigen Kontrollintervallen oder notwendiger weiterführender Diagnostik. Gleichfalls erhält der überweisende Arzt eine Befundmitteilung. 
+Kurz vor der Entbindung fiel der Hebamme der Patientin die veränderte Brust auf, es kam zu einer weiteren Biopsie bei einer anderen Gynäkologin - mit welchem histologischen Ergebnis?
+Die zweite Gynäkologin sah alte Befunde durch - woher hatte sie diese? 
+Sie stellte fest, daß bereits zuvor Auffälligkeiten bestanden hätten (welche?) und eine zeitnahe Abklärung nötig gewesen wäre. Diese Information sei der Patientin damals jedoch nicht mitgegeben worden. Wann damals? Über welchen Zeitraum wird hier gesprochen?
+Der Fall ist insgesamt ausgesprochen verkürzt dargestellt, wesentliche Informationen zur Einordnung fehlen. Unklar bleibt damit abschließend, ob die Patientin überhaupt an Brustkrebs erkrankt ist,  und wenn ja, an welchem und  in welchem Tumorstadium sie sich bei Erstdiagnose befunden hat.  Wie lange wurde die Diagnose verzögert, hat dies zu einer Verschlechterung des Tumorstadiums und damit der Prognose geführt?  
+
+Fall 2: Implantat nach Brustkrebs-Op freiliegend – Nach Fallschilderung erhielt die Patientin im Rahmen einer Brustkrebserkrankung eine hautsparende subkutane Mastektomie, eine Sentinel-Node-Biopsie und ein Implantat eingelegt. Der postoperative Verlauf war zunächst unauffällig, bei Nachkontrollen zeigte sich wiederholt Schorf im Narbenbereich, es erfolgte eine Wundversorgung mit Steristrips und es wurde abgewartet -  was ein normales Vorgehen darstellt. 
+Später stellte eine als Wundmanagerin tätige Bekannte bei vorsichtiger Wundreinigung eine freiliegende Prothese fest, die Patientin stellte sich in einer anderen Klinik vor. Das Implantat wurde entfernt und  ein  sekundären Aufbau angeraten.
+Zu diesem Fall ist festzustellen, daß es sich um die Verwirklichung eines eingriffsimmanten und ganz sicher aufgeklärten Risikos für eine subkutane Mastektomie handelt, die nicht einmal selten ist. 
+Wundheilungsstörungen, notwendige Nach- und Korrektur-Operationen u.a. gehören zum Risikoprofil des Eingriffs, egal ob der Eingriff aufgrund  einer Brustkrebsdiagnose oder aus anderer Indikation heraus durchgeführt wird .
+Wenn die Patientin nicht  eine offenkundige Leckage an der operierten Brust über dem Implantat, also eine sichtbare Öffnung, Sekretaustritt, Rötung der Haut, Fieber u.a. während der poststationären Wundversorgung in der ersten Klinik aufwies und keine Infektion in dieser Zeit entwickelte, ist an diesem Vorgehen nichts auszusetzen - so lange die Risiken mit der Patientin besprochen wurden und sie gewußt hat, daß sie sich im Notfall zu jeder Tageszeit in der Klinik vorstellen sollte. 
+Daß eine dritte Person die  Wunde, die laut Fallbeschreibung vorher nur mit Schorf bedeckt und über Steristrips versorgt war, manipuliert hat, läßt eine Wunderöffnung durch diese anhand der Fallbeschreibung auch denkbar erscheinen. 
+Die Entfernung des Implantates in solch einem Fall ist die Therapie der Wahl und mußte so oder so erfolgen.  
+Es stellt sich die Frage, warum dieser Fall hier aufgeführt ist? Was soll hier gelernt und diskutiert werden im Hinblick auf  kritische Ereignisse im Zusammenhang Tumorerkrankungen? Es handelt sich um eine eingriffstypische Wundheilungsstörung, die nicht an die Tumorerkrankung gebunden ist. 
+
+Fall 3: Klinikum hat vergessen über Tumor zu informieren – Ein Patient stellt sich mit einseitiger Lähmungserscheinung (welche Körperregion war betroffen?) in einer Klinik vor, erhält ein CT (Befund?) und  wird stationär aufgenommen. Im Rahmen des stationären Aufenthaltes  erhält er nun ein MRT der Halswirbelsäule, es kommt zur Diagnose einer Myelitis, also einer seltenen entzündlichen Erkrankung des Rückenmarks, die zunächst beobachtet wurde. Eine bereits in diesem Befund sichtbare Raumforderung sei jedoch weder dem Patienten noch der Hausärztin mitgeteilt worden. 
+Was ist hier mit Befund gemeint? Die MRT-Bilder? Die erfolgte Auswertung der  MRT-Bilder und schriftlich festgehaltene Befundung? 
+Erst Jahre später habe der Patient erfahren, daß es sich um ein vermutlich seit über zehn Jahren vorhandenes, langsam wachsendes Meningeom, und somit einen gutartigen Befund, handelt, was durch ein Gutachten bestätigt wird. 
+Wie viele Jahre später erfuhr der Patient davon? Hat sich sein Befinden seither verschlechtert? Wurde der Befund vom Radiologen übersehen und später im Verlauf nach Abgleich aller jemals gemachten Bilder diagnostiziert? Wurde das Meningeom seinerzeit diagnostiziert und nicht mit dem Patienten besprochen und auch nicht im Arztbrief vermerkt? Hat der Patient hierdurch einen weiteren Schaden erlitten und wenn ja, welchen? 
+
+Fall 4: Hirntumor 3 Jahre lang nicht erkannt – hier handelt es sich vermutlich um einen Diagnoseirrtum eines Radiologen, der einen Tumorbefund im MRT nicht erkannt hat. 
+Im Rahmen einer späteren Schwangerschaft mit erheblichen Beschwerden, verursacht durch den infiltrativ wachsenden unheilbaren Tumor, kam es letztlich zur Diagnose und operativen Entfernung. 
+Hier fehlt auf jeden Fall der Hinweis, um welche Art Tumor es sich  handelt. Gleichfalls drängt sich die Frage auf, warum bei derart starken lokalisierten Kopfschmerzen, die in den nachfolgenden 3 Jahren sicher nicht besser wurden, keine weiteren Kontrollen oder  Überweisungen an andere Fachärzte zur weiteren Abklärung der Beschwerden erfolgten? 
+Da die Fallüberschrift „Hirntumor 3 Jahre lang nicht erkannt“ lautet, fehlt die Information, von wem der Hirntumor so lange nicht erkannt wurde -  oder man hätte besser eine andere Überschrift gewählt, wenn der Tumor aufgrund eines Übersehens im MRT durch den Radiologen mit einer Zeitverzögerung von 3 Jahren zur deutlich verspäteten Erstdiagnose kam. 
+
+Fall 5: Deutlich verzögerte Diagnostik eines Plattenepithelkarzinoms – Ein niedergelassener HNO-Arzt wies einen Patienten mit einer verdächtigen Veränderung der linken Tonsille/Rachenmandel ein. Die geplante Mandelentfernung verzögerte sich wegen Mißachtung der Thrombozytopenie um etwa 8 Wochen – was soll einem dieser Satz sagen? 
+Eine Mißachtung einer Thrombozytopenie (niedrige Anzahl an Blutplättchen) vor einer Mandelentfernung stellt ein erhebliches medizinisches Risiko für den Patienten dar, da dieser Eingriff mit einer hohen Rate an Nachblutungen vergesellschaftet ist. 
+Nach 8 Wochen sei der Befund so ausgeprägt gewesen, daß lediglich eine Biopsie möglich war, die den Befund eines sehr seltenen, hochagressiven und damit  prognostisch ungünstigen 
+basaloiden Plattenepithelkarzinoms erbrachte, das mit einer transmandibulären Resektion mit Neck-Dissection und Radialistransplantation operativ therapiert wurde. 
+Das endgültige Tumorstadium und weitere notwendige Therapien wie adjuvante Bestrahlung oder Radiochemotherapie werden gleichfalls nicht in die Fallbeschreibung eingefügt. Dafür findet sich der Hinweis, daß ein Gutachten (nicht ein Gutachter) zu dem Schluß gekommen sei, daß ein Behandlungsfehler durch die verspätete Operation vorlag. Hierzu muß angemerkt werden, daß es, warum auch immer, zu einer um 8 Wochen verspäteten Operation kam. In dieser Zeit konnte sich der hochaggressive Tumor schnell weiter ausbreiten, was zu einer deutlich größeren Operation und einer verschlechterten Überlebensprognose geführt haben wird.  
+
+Fall 6: Tumor bei kindlicher U-Untersuchung nicht erkannt – beschrieben wird, daß bei einem Patienten im Alter von 6 Monaten, also einem Baby, eine Zunahme des Kopfumfanges auftrat. 
+Aufgrund des Alters handelt es sich wahrscheinlich um die U5. Wie groß der Kopfumfang hier gewesen ist, wird nicht beschrieben. Dafür wird die Zunahme des Kopfumfanges als Makrozephalus bezeichnet. Eine notwendige Abklärung durch den Arzt sei ausgeblieben. Es wird auch nicht beschrieben, daß diese Auffälligkeit bei der U6, im Alter von 10-12 Monaten, weiterhin bestand und nicht abgeklärt wurde. Weitere Symptome außer einer wie auch immer gearteten Zunahme des Kopfumfanges, die für das Vorliegen eines Hirntumors oder einer anderen ursächlichen Erkrankung sprechen würden, werden nicht beschrieben, 
+Im zweiten Lebensjahr initiierten die Eltern eigenständig eine Diagnostik, die einen Hirntumor nachwies, der anschließend leitliniengerecht therapiert wurde, aber wohl nicht vollständig entfernt werden konnte. Die Abklärung im Alter von 6 Monaten entsprach nicht den allgemeinen Standards und Leitlinien. Bei frühzeitigerer Diagnose wäre der Tumor wahrscheinlich noch vollständig zu resezieren gewesen. 
+Um welchen Tumor es sich genau handelt, in welchem Stadium er sich zum Zeitpunkt der Diagnose befand, welche Prognose sich aus der Verschleppung (um wie viele Monate genau?) ergibt, wird nicht erwähnt. Laut Fallschilderung entsprach die Abklärung der Zunahme des Kopfumfanges - hier müßte man schon auch anführen, daß es sich um eine ungewöhnliche Zunahme des Kopfumfanges, außerhalb des normalen Wachstums,  gehandelt hat, die vermutlich einen beachtlichen Sprung auf eine deutlich  höhere Wachstumsperzentile als zuvor bedeutete. 
+Es handelt sich hier um einen unvollständig dargestellten pädiatrischen Fall. Auch ist die gewählte Fall- Überschrift nicht korrekt. Im Rahmen der U-Untersuchung wurde vermutlich eine Zunahme des Kopfumfanges festgestellt und  nicht weiter abgeklärt. U-Untersuchungen im Kindesalter dienen nicht der Erkennung von Tumoren. 
+
+Fall 7: Rektum Karzinom nicht erkannt  – die Diagnose eines Rektum-Karzinoms wurde verspätet gestellt, erkannt wurde das Karzinom. Wie viel Zeit aufgrund  einer unvollständigen Erstuntersuchung bis zur Diagnosestellung in einer anderen Klinik verging, wird nicht erwähnt. Gleichfalls findet sich hier auch keine Tumorformel. 
+Die Fallbeschreibung endet inmitten eines Satzes, was offenkundig bislang Niemandem aufgefallen ist.
+
+Weitere Verlinkungen/Literatur:
+Link 1: Verlinkung auf die Seite der Deutschen Gesellschaft für Radioonkologie – hier Ankündigung 32.Jahreskongress Juni 2026
+Link 2: Verlinkung auf die Homepage der Deutschen Gesellschaft für Hämatologie und Medizinische Onkologie
+Link 3: Verlinkung auf die Homepage der Gesellschaft für Pädiatrische Onkologie und Hämatologie
+Link 4: Deutsche Krebsgesellschaft, Leitlinien
+Link5 : Deutsche Krebsgesellschaft, Zertifizierung von Krebszentren
+Link 6: Leitlinienprogramme Onkologie, Erwerb einer App
+Link 7: Startseite Mehr-Patientensicherheit.de
+Link 8: Krebsverdacht: Erkennung und Überweisung
+Link 9:  AWMF online – Leitlinienregister
+Link 10: Arbeitsgemeinschaft Schweitzer Krebszentren – Angebot der Ausbildung zur Tumordokumentationsfachkraft in 10 Tagen
+Link 11: Homepage Aktionsbündnis Patientensicherheit
+Link 12: Homepage.Anmeldung Deutschlands größte Krebs-Convention Juni 2026
+Link 13:  Homepage Krebshilfe
+
+————————————————————————————————————————————————————————————————————————————————————
+
+PSS Nr. 22 - Arzneimitteltherapiesicherheit: Reduktion von Verordnungsfehlern  03/2026
+https://www.tk.de/resource/blob/2213880/698a10602db9a9a4f1df79b60c83ec5b/tk-pat-sich-info-nr-22-arzneimitteltherapiesicherheit---reduktion-von-verordnungsfehlern-data.pdf
+Bereits unter Bedeutung und der Einleitung zum Thema fallen mehrere Dinge auf: 
+„Das Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) verzeichnet jährlich rund 1.000 Meldungen zu Medikationsfehlern“. Eine Jahres- und Quellenangabe fehlt. Tatsächlich erscheint diese Zahl auch nicht besonders hoch, wenn man bedenkt, wie viele Millionen Versicherte allein die TK hat.
+Eine einfache Google-Recherche zeigt hierzu an, daß das BfArM Berichte über Medikationsfehler auswertet, die sowohl Meldungen mit als auch ohne entstandenen Schaden, sowie „Beinahe-Fehler“ beinhaltet. Das läßt die Zahl der angeführten Meldungen im Hinblick auf Medikations- und damit Behandlungsfehler sowie evtl. entstandene wirtschaftliche Schäden für die GKV nicht  repräsentativ genug wirken, um auf die gravierenden Schäden und verursachten hohen Kosten durch verlängerte Krankenhausaufenthalte und zusätzliche Behandlungen überzuleiten. Daß falsch verordnete oder eingenommene Arzneimittel schätzungsweise Kosten in Höhe von ca. 1 Milliarde Euro bis hin zu 19 Milliarden Euro jährlich verursachen, wird nicht erwähnt, stattdessen wird sich auf das Deutsche Ärzteblatt von 2022 bezogen und jährliche Gesundheitskosten durch Medikationsfehler mit 800 Millionen bis 1,2 Miliarden Euro angegeben.
+Weiterhin werden zur Anzahl der jährlichen Krankenhauseinweisungen, die auf vermeidbare Medikationsfehler zurückzuführen sind, eine Quellenangabe aus 2018  (zum Zeitpunkt der Veröffentlichung des PSS-Nr. 22 8 Jahre alt) und zu einer prozentualen Angabe, wie viele Patienten, die drei oder mehr Medikamente einnehmen und schon einmal Probleme dadurch hatten (unklar bleibt an dieser Stelle, welcher Art die Probleme gewesen sind), eine Quelle  aus 2022 angeführt. 
+Besondere Aufmerksamkeit erregt, daß die Autorin des PSS  Nr. 22, Frau Dr.phil.  Huckels Baumgart, ihre eigene Veröffentlichung von 2014 als Referenz für eine Analyse  von tausenden Medikationsfehlern für eine Veröffentlichung des PSS 22 in 03/2026 anführt, und  diese am Endes des PSS Nr. 22 sogar als weiterführende Literatur verlinkt  (https://pubmed.ncbi.nlm.nih.gov/24782100/ )
+Unter diesem Link findet sich ein Abstract, aus dem hervorgeht, daß in einer Schweizer Studie von 2009-2012 für 900 Kliniken 1.591 Medikationsfehler gemeldet wurden. 
+Die angeführte Quelle zeigt keine Analyse tausender Medikationsfehler . Es handelt sich um eine 14 Jahre alte Veröffentlichung mit noch älteren Daten aus Schweizer Kliniken, die in keinem Fall repräsentativ für die aktuelle Situation in Deutschland ist.  
+
+Unter Art des Fehlers finden sich für Unklare Verordnungen (handschriftlich, nicht lesbar), keine Fallbeispiele. 
+Für Doppelverodnungen (gleicher Wirkstoff unter anderem Handelsnamen) finden sich keine Fallbeispiele.
+Für Medikamentenverwechslung wird auf Fall 1 verwiesen. 
+Für Dosierungsfehler wird auf die Fälle 2,3 und 4 verwiesen. 
+Für das Nichtbeachten von bek. Allergien, Kontraindikationen oder Interaktionen wird auf die Fälle 5 und 7 verwiesen. 
+Für Falsche Applikationsform (orale statt inhalative Gabe) findet sich kein Fallbeispiel.
+Hierauf folgt Mögliche beitragende Faktoren („Fallstricke“) und  eine Aufzählung von möglichen Fehlerquellen, jeweils ohne Quellen- und Literaturangabe. 
+
+Fälle aus TK-Behandlungsregister
+Fall 1: Medikamentenverwechselung –Vergiftung durch versehentliche Zytostatika-Verordnung – Anhand der kurzen Fallbeschreibung fragt man sich, wie es zu der Herausgabe des Zytostatikums (welchem?) in der Apotheke kommen konnte, da Apotheker verpflichtet sind, Zytostatika-Verordnungen zu überprüfen. 
+Es muß sich demnach um ein fertiges Medikament und kein herzustellendes Zytostatikum handeln. 
+Wie ist diese Verwechslung bei der Verordnung zustande gekommen (Namensähnlichkeit der Präparate?) und durch wen (Arzt, MFA)?  Zu welchen Überlegungen soll diese Fallbeschreibung anregen?
+
+Fall 2: Überdosierung mit Digoxin wegen nicht beachteter Niereninsuffizienz – wessen Fehler war das (Assistenzarzt, Facharzt) und wie ist er zustande gekommen?
+
+Fall 3: Übersosierung von Ferrlecit – Wer hat in einer Arztpraxis diesen Fehler begangen? Der Arzt? Eine MFA? 
+Wer und mit welchem Ausbildungsstand (Assistenzarzt? Facharzt?) hat die Patientin fälschlicherweise später aus der Klinik entlassen?
+
+Fall 4: Verordnung von Schmerzmitteln trotz Kontraindikation in der Schwangerschaft – Ibuprofen gehört neben Paracetamol in den ersten zwei Dritteln der Schwangerschaft zu den Analgetika/Antiphlogistika der Wahl. Es kann zu einem vorzeitigen Verschluß des Ductus arteriosus Botalli und zu einer Schädigung der fetalen und neonatalen Nierenfunktion führen. Nach der 28.SSW ist eine Einnahme strikt  kontraindiziert. Ibuprofen wirkt unter anderem durch eine verminderte  Prostaglandinsynthese und ist nicht in der Lage, Kontraktionen(Wehen) auszulösen. Ansonsten wäre es auch in der gesamten Schwangerschaft strikt kontraindiziert. 
+In der Fallbeschreibung sei es nun in der 32.SSW zu einer fälschlicherweisen und strikt kontraindizierten Ibuprofenverordnung gekommen. 
+Durch wen und welche Fachrichtung wird nicht erwähnt. In der Folge soll es zu Kontraktionen/Wehen  und damit zur Gefährdung des Lebens des Feten gekommen sein. Zur Abwendung weiterer Komplikationen erfolgte in der 35.SSW ein Kaiserschnitt. 
+Da Ibuprofen keine Wehen/Kontraktionen am Uterus auslösen kann, aber ein Kaiserschnitt in der 35.SSW notwendig wurde, ist der Fall hier offenkundig falsch dargestellt. 
+Der gleiche Fall findet sich auch im PSS Nr. 16 -  hier allerdings mit dem relevanten Zusatz, daß das Ibuprofen zu Kontraktionen des Ductus arteriosus Botalli geführt habe und deshalb in der 35.SSW ein Kaiserschnitt zur Sicherheit des Kindes erfolgen mußte.
+
+Fall 5: Fehlende Risiko-Aufklärung zu Agranulozytose bei der Verordnung von Novalgin-Tropfen durch einen Zahnarzt – immer wieder mal  vorkommender Aufklärungs- und damit Behandlungsfehler, hier mit der tatsächlichen Verwirklichung einer sehr seltenen aber potentiell lebensbedohlichen Nebenwirkung. 
+
+Fall 6: Prednisolongabe trotz erhöhter Leberwerte führte zum Leberversagen – der Fall beschreibt keinen Verordnungsfehler, sondern das Unterlassen der  notwendigen Laborkontrollen und deren Einordnung  zur Therapieüberwachung vor erneuter Medikamentengabe. 
+
+Unter Anregung zur Prävention/Überprüfung finden sich 40 Fragen, die die Leser sich selbst stellen und beantworten sollen. 
+Weitere Verlinkungen/Literatur
+Link 1: APS, Gute Verordnungspraxis in der Arzneimitteltherapie – Kurfassung
+Link 2: APS, Gute Verordnungspraxis in der Arzneimitteltherapie - Langfassung
+Link 3: APS, Gute Verordnungspraxis in der Arzneimitteltherapie, 15 Empfehlungen für die Kitteltasche
+Link 4: BfArM, Medikationsfehler im Fokus der Forschung und Pharmakovigilanz von 2015, zum Zeitpunkt des PSS Nr. 22 11 Jahre alt
+Link 5: BfArM, Arzneimitteltherapiesicherheit, kurzer Artikel zur Bearbeitung von Medikationsfehlern im BfArM
+Link 6: Schweizer Ärztezeitung 2012, Artikel Fehlerquelle Medikamentenverordnung, zum Zeitpunkt des PSS nr. 22 14 Jahre alt
+Link 7: Abstract von 2014 zu Medikationsfehlern in der Schweiz von der Autorin des PSS Nr. 22 
+
+Naturgemäß handelt es sich bei den angeführten 7 Fällen um Fälle aus der Vergangenheit. 
+Während die TK mit der ePA, TK Safe und dem E-Rezept die digitale Transformation eingeführt hat, verharrt das PSS Nr. 22 u.a. noch in der Ära der Handschriftlichkeit. 
+2026 verhindert man Medikations- und Verordnungsfehler am wirksamsten mit mehreren Sicherheitsbarrieren („Swiss-Cheese-Prinzip“):
+Elektronische Verordnung mit Entscheidungsuntersützung (CPOE + CDSS)
+Clinical Decision Support System-Systeme überprüfen automatisch Allergien, Wechselwirkungen, Doppelverordnungen, Nieren-/Leber-Dosisanpassungen, gewichtsbasiertes Dosieren (wichtig bei Kindern, Onkologie, Intensivstation), Kontraindikationen und Hochrisikomedikamente).
+Strukturierte Medikationsabgleiche (Medication Reconciliation)
+Medication Recinciliation bei Aufnahme, Verlegung, Entlassung, jedem Arztwechsel.
+Hier entstehen besonders häufig Fehler (vergessene Medikamente, falsche Fortführung, doppelte Medikamente).
+Barcode-Scanning vor Abgabe und Verabreichung
+Barcode Medication Administration prüft: Richtiger Patient, richtiges Arzneimittel, richtige Dosierung, richtiger Zeitpunkt, richtiger Applikationsweg.
+2026 gilt BCMA weiterhin als Kernmaßnahme, auch zunehmend in Ambulanzen und Notaufnahmen. 
+Standardisierung statt Improvisation
+Standard-Protokolle und Checklisten, Tall-Man-Lettering bei ähnlich klingenden Wirkstoffen, Verbot gefährlicher Abkürzungen, einheitlich ml statt Teelöffel/Tropfen-Angaben, Standard-Konzentrationen für Infusionen.
+Doppelkontrollen bei Hochrisiko-Medikamenten
+Besonders bei Insulin, Heparin, Methotrexat, Chemotherapie, Opioiden, Elektrolytkonzentraten (z.B. Kalium)
+Weniger Unterbrechungen beim Verordnen und Richten von Medikamenten
+Viele Fehler entstehen durch Multitasking, Telefon-Unterbrechungen, Zeitdruck, Copy-Paste in digitalen Kurven, mündliche Anordnungen. „No-interruption zones“ helfen nachweislich.
+Patienten aktiv einbeziehen
+Patienten sollten wissen: Wofür nehme ich das Medikament, in welcher Dosierung, seit wann, was hat sich geändert. Eine aktuelle Medikationsliste verhindert viele Fehler.
+Fehler- und Sicherheitskultur
+Systeme verbessern statt Einzelperson bestrafen
+Die größten Hebel sind heute e-Verordnungen+Medikationsabgleich+
+Barcode+Standardisierung+Sicherheitskultur.
+
+————————————————————————————————————————————————————————————————————————————————————
+
+
+
+Zentrale Erkenntnisse aus der Analyse und Ansatzpunkte
+Die Auswertung der 22 PSS zeigt wiederkehrende strukturelle und inhaltliche Muster, die über Einzelfälle hinausgehen und Ansatzpunkte für eine gezielte Weiterentwicklung bieten.
+Zusammenfassend lassen sich insbesondere folgende Aspekte identifizieren:
+Eingeschränkte praktische Nutzbarkeit der Inhalte für medizinische Fachkreise
+Strukturelle Inkonsistenzen in Aufbau und Darstellung der Fallbeschreibungen
+Teilweise fehlende inhaltliche Vollständigkeit für eine fachliche Einordnung
+Teilweise nicht zum Thema passende Fallzuordnung
+Eingeschränkte Funktionalität und Relevanz der weiterführenden Verlinkungen
+Fehlende oder unzureichende Quellen- und Literaturangaben zur fachlichen Einordnung 
+Eingeschränkte Nachvollziehbarkeit der inhaltlichen Herleitung von Inhalten, Fallstricken, Präventionen, Fragenkatalogen aufgrund fehlender oder nicht ausgewiesener fachlicher Quellen und Referenzen
+Begrenzte Anschlußfähigkeit der Inhalte an konkrete Lern- und Weiterbildungsprozesse.
+
+Aus den identifizierten Mustern ergibt sich ein klarer Ansatz zur Weiterentwicklung der Patientensicherheitssignale.
+Hierfür wurde ein strukturiertes Konzept entwickelt, das reale Behandlungsereignisse gezielt für präventive Lern- und Verbesserungsprozesse nutzbar macht.

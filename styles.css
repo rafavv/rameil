@@ -659,23 +659,20 @@ input {
 
 .anni-effects {
   display: grid;
-  grid-template-columns: minmax(0, 0.4fr) minmax(0, 0.6fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   background: var(--soft-blue);
 }
 
 .anni-effects article {
-  display: grid;
-  gap: 28px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
   padding: 24px;
 }
 
-.anni-effects article > div + div {
-  border-top: 1px solid var(--line);
-  padding-top: 28px;
+.anni-effects-main {
+  grid-column: span 2;
 }
 
 .anni-effects h2 {
@@ -2796,6 +2793,10 @@ p {
   .subpage-hero.text-first,
   .module-band {
     grid-template-columns: 1fr;
+  }
+
+  .anni-effects-main {
+    grid-column: span 1;
   }
 
   .profile-timeline article {

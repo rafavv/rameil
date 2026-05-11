@@ -2725,6 +2725,41 @@ p {
   }
 }
 
+/* ─── Adjacent same-background section spacing ─────────────────────────── */
+/* When two white-background sections follow each other, remove the top
+   padding of the second so content spacing stays visually consistent. */
+
+/* profil.html */
+.profile-timeline-section + .analysis-image-band {
+  padding-top: 0;
+}
+
+/* impuls.html */
+.anni-gutachten + .analysis-image-band,
+.analysis-image-band + .anni-stance,
+.anni-stance + .anni-question {
+  padding-top: 0;
+}
+
+/* aktuell.html */
+.patient-chapters + .analysis-image-band,
+.analysis-image-band + .patient-trust {
+  padding-top: 0;
+}
+
+/* analyse.html */
+.analysis-focus + .analysis-overview,
+.analysis-overview + .analysis-image-band,
+.analysis-image-band + .anni-stance {
+  padding-top: 0;
+}
+
+/* konzept.html */
+.konzept-projects + .anni-stance,
+.anni-stance + .analysis-image-band {
+  padding-top: 0;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

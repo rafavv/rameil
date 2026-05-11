@@ -326,7 +326,7 @@ input {
   border-radius: 6px;
   color: var(--ink);
   font-size: clamp(24px, 3.2vw, 46px);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
   padding: 2px 16px;
   text-decoration: none;
@@ -1677,8 +1677,8 @@ p {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(0, 33, 49, 0.1) 0%, rgba(0, 33, 49, 0.42) 42%, rgba(0, 33, 49, 0.88) 100%),
-    linear-gradient(90deg, rgba(1, 161, 227, 0.28), transparent 58%);
+    linear-gradient(180deg, rgba(0, 33, 49, 0.0) 0%, rgba(0, 33, 49, 0.22) 42%, rgba(0, 33, 49, 0.72) 100%),
+    linear-gradient(90deg, rgba(1, 161, 227, 0.14), transparent 58%);
 }
 
 .tile-copy {

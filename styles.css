@@ -3045,17 +3045,22 @@ p {
     grid-column: span 1;
   }
 
-  .brand-logo img,
-  .brand-logo svg {
-    height: 56px;
-    width: auto;
-    max-width: 200px;
-  }
-
   .site-header {
     gap: 12px;
     padding-left: 14px;
     padding-right: 14px;
+  }
+
+  .site-header .brand {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .brand-logo img,
+  .brand-logo svg {
+    height: 56px;
+    width: 100%;
+    max-width: 100%;
   }
 
   .brand-logo span {

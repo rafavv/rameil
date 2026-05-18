@@ -209,7 +209,7 @@ input {
 .brand-logo img,
 .brand-logo svg {
   display: block;
-  height: clamp(36px, 4.5vw, 54px);
+  height: clamp(48px, 4.5vw, 54px);
   width: auto;
 }
 

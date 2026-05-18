@@ -1142,7 +1142,8 @@ input {
 }
 
 .analysis-pss-content .pss-title + p {
-  margin-top: -0.6em;
+  margin-top: -0.8em;
+  margin-bottom: 1.8em;
 }
 
 .analysis-pss-content a:hover {

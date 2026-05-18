@@ -1,28 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
+  /* ── Layout ── */
   --page-max: 1360px;
   --page-pad: clamp(18px, 4vw, 56px);
   --radius: 0px;
+
+  /* ── Colors ── */
+  --white: #ffffff;
+  --navy: #003e63;
+  --aqua: #01a1e3;
   --bg: #ffffff;
   --paper: #ffffff;
   --ink: #003e63;
   --muted: rgba(0, 62, 99, 0.58);
   --line: rgba(1, 161, 227, 0.2);
-  --aqua: #01a1e3;
-  --aqua-dark: #003e63;
-  --blue: #003e63;
+  --aqua-dark: #003e63;       /* alias → --navy */
   --mint: rgba(1, 161, 227, 0.08);
   --soft-blue: rgba(1, 161, 227, 0.05);
   --shadow: 0 22px 70px rgba(0, 62, 99, 0.12);
+
+  /* ── Typography ── */
   --font-display: "Urbanist", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   --font-body: "Open Sans", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
   font-family: var(--font-body);
+  --text-h1: clamp(36px, 4vw, 64px);
+  --text-h2: clamp(26px, 2.5vw, 42px);
+  --text-h3: clamp(20px, 1.8vw, 30px);
   --text-lede: clamp(19px, 1.6vw, 24px);
   --text-base: clamp(17px, 1.4vw, 20px);
   --text-sm: clamp(15px, 1.15vw, 18px);
+
+  /* ── Section spacing ──────────────────────────────────────────────────────
+   * --section-gap       : standard vertical padding between sections with a
+   *                       background color change (white ↔ soft-blue/navy).
+   * --section-gap-tight : reduced padding when two white sections follow each
+   *                       other on the same background (no visual separator).
+   * Usage: .section uses --section-gap by default. Adjacent white-on-white
+   * sections receive padding-top: var(--section-gap-tight) via sibling rules.
+   * ─────────────────────────────────────────────────────────────────────── */
+  --section-gap: clamp(56px, 8vw, 108px);
+  --section-gap-tight: clamp(28px, 4vw, 54px);
 }
 
 * {
@@ -116,6 +136,9 @@ input {
 .password-row button,
 .primary-button,
 .secondary-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   border: 0;
   border-radius: 6px;
   padding: 12px 18px;
@@ -130,12 +153,12 @@ input {
 .password-row button,
 .primary-button {
   background: var(--aqua);
-  color: #fff;
+  color: var(--white);
 }
 
 .secondary-button {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--white);
 }
 
 .profile-download {
@@ -167,7 +190,7 @@ input {
   justify-content: space-between;
   gap: 24px;
   padding: 14px max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad)));
-  background: #fff;
+  background: var(--white);
   border-bottom: 1px solid rgba(207, 229, 228, 0.86);
 }
 
@@ -205,7 +228,7 @@ input {
   height: 44px;
   border-radius: 8px;
   background: var(--aqua);
-  color: #fff;
+  color: var(--white);
   font-weight: 900;
 }
 
@@ -343,7 +366,7 @@ input {
 }
 
 .section {
-  padding: clamp(56px, 8vw, 108px) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad)));
+  padding: var(--section-gap) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad)));
 }
 
 .subpage-hero {
@@ -419,8 +442,8 @@ input {
 
 .profile-feature-strip {
   background: var(--soft-blue);
-  padding-top: clamp(80px, 11vw, 140px);
-  padding-bottom: clamp(54px, 7vw, 92px);
+  padding-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
 }
 
 .profile-timeline-section {
@@ -453,7 +476,7 @@ input {
 }
 
 .profile-timeline h3 {
-  font-size: clamp(20px, 1.8vw, 30px);
+  font-size: var(--text-h3);
 }
 
 .profile-timeline p {
@@ -661,7 +684,7 @@ input {
   grid-template-columns: minmax(280px, 0.62fr) minmax(0, 0.9fr);
   gap: clamp(24px, 5vw, 72px);
   align-items: center;
-  background: #fff;
+  background: var(--white);
 }
 
 .anni-image-band img {
@@ -683,7 +706,7 @@ input {
 .anni-effects article {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--white);
   padding: 24px;
 }
 
@@ -717,14 +740,14 @@ input {
   background: var(--bg);
   display: flex;
   justify-content: center;
-  padding-top: clamp(56px, 8vw, 108px);
+  padding-top: var(--section-gap);
 }
 
 .anni-stance-card {
   width: 100%;
   max-width: none;
-  background: #003e63;
-  color: #fff;
+  background: var(--navy);
+  color: var(--white);
   padding: clamp(28px, 5vw, 56px);
 }
 
@@ -752,7 +775,7 @@ input {
   position: relative;
   height: clamp(380px, 50vh, 540px);
   overflow: hidden;
-  background: #003e63;
+  background: var(--navy);
 }
 
 .wide-image-hero > img {
@@ -780,7 +803,7 @@ input {
   flex-direction: column;
   justify-content: center;
   padding: clamp(48px, 7vw, 80px) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad)));
-  color: #fff;
+  color: var(--white);
 }
 
 .wide-image-copy .eyebrow {
@@ -800,8 +823,8 @@ input {
 
 .patient-feature-strip {
   background: var(--bg);
-  padding-top: clamp(54px, 7vw, 92px);
-  padding-bottom: clamp(54px, 7vw, 92px);
+  padding-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
 }
 
 /* ── Shared page intro block ── */
@@ -837,14 +860,14 @@ input {
 .patient-intro,
 .analysis-intro,
 .konzept-intro {
-  padding-top: clamp(36px, 5vw, 56px);
-  padding-bottom: clamp(36px, 5vw, 56px);
+  padding-top: var(--section-gap-tight);
+  padding-bottom: var(--section-gap-tight);
 }
 
 /* anni-learning: symmetric tight padding top and bottom */
 .anni-learning {
-  padding-top: clamp(36px, 5vw, 56px);
-  padding-bottom: clamp(36px, 5vw, 56px);
+  padding-top: var(--section-gap-tight);
+  padding-bottom: var(--section-gap-tight);
 }
 
 .patient-intro {
@@ -861,7 +884,7 @@ input {
   margin: 0;
   border: 1px solid rgba(1, 161, 227, 0.18);
   border-radius: 8px;
-  background: #fff;
+  background: var(--white);
   padding: 24px;
   color: var(--muted);
   font-size: var(--text-base);
@@ -922,8 +945,8 @@ input {
 .patient-trust-card {
   width: 100%;
   border-radius: 8px;
-  background: #003e63;
-  color: #fff;
+  background: var(--navy);
+  color: var(--white);
   padding: clamp(28px, 5vw, 56px);
 }
 
@@ -952,14 +975,50 @@ input {
   font-size: clamp(22px, 1.8vw, 32px);
 }
 
+
+.patient-psb .section-heading {
+  margin-bottom: clamp(32px, 4vw, 56px);
+}
+
+.patient-psb-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.patient-psb-grid article {
+  background: var(--soft-blue);
+  border-radius: 12px;
+  padding: clamp(24px, 3vw, 40px);
+}
+
+.patient-psb-grid h3 {
+  margin: 8px 0 20px;
+  font-size: clamp(20px, 1.6vw, 28px);
+}
+
+.patient-psb-grid ul {
+  margin: 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.patient-psb-grid li {
+  font-size: clamp(15px, 1.1vw, 17px);
+  line-height: 1.55;
+  color: var(--text);
+}
+
 .patient-sources {
   background: var(--bg);
 }
 
 .analysis-feature-strip {
   background: var(--bg);
-  padding-top: clamp(54px, 7vw, 92px);
-  padding-bottom: clamp(54px, 7vw, 92px);
+  padding-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
 }
 
 .analysis-intro,
@@ -1016,7 +1075,7 @@ input {
 .analysis-focus-grid article,
 .analysis-pss-grid article {
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--white);
   padding: clamp(22px, 3vw, 32px);
 }
 
@@ -1073,7 +1132,7 @@ input {
 .analysis-pss-item {
   overflow: hidden;
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--white);
 }
 
 .analysis-pss-item summary {
@@ -1255,7 +1314,7 @@ input {
 }
 
 .analysis-learning {
-  background: #003e63;
+  background: var(--navy);
 }
 
 .analysis-learning .eyebrow {
@@ -1264,7 +1323,7 @@ input {
 
 .analysis-learning h2,
 .analysis-learning > p {
-  color: #fff;
+  color: var(--white);
 }
 
 .analysis-learning > p {
@@ -1281,7 +1340,7 @@ input {
   height: 82vh;
   min-height: 0;
   overflow: hidden;
-  background: #003e63;
+  background: var(--navy);
 }
 
 .hero-slide {
@@ -1320,7 +1379,7 @@ input {
   justify-content: center;
   align-items: flex-start;
   padding: clamp(72px, 10vw, 132px) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad)));
-  color: #fff;
+  color: var(--white);
 }
 
 .hero-copy-over-video h1 {
@@ -1333,6 +1392,10 @@ input {
 .hero-copy-over-video .eyebrow {
   color: #9ee7ff;
 }
+.hero-copy-over-video .eyebrow-hero {
+  font-size: 22px;
+  letter-spacing: 3px;
+}
 
 .hero-copy-over-video .hero-lede {
   width: min(780px, 76vw);
@@ -1343,13 +1406,13 @@ input {
 }
 
 .hero-copy-over-video .primary-button {
-  background: #01a1e3;
+  background: var(--aqua);
 }
 
 .secondary-button.on-dark {
   border-color: rgba(255, 255, 255, 0.58);
   background: rgba(255, 255, 255, 0.12);
-  color: #fff;
+  color: var(--white);
   backdrop-filter: blur(12px);
 }
 
@@ -1368,7 +1431,7 @@ input {
   height: 48px;
   border: 1.5px solid rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   background: transparent;
   cursor: pointer;
@@ -1414,7 +1477,7 @@ input {
 }
 
 .hero-dots button.is-active {
-  background: #fff;
+  background: var(--white);
 }
 
 .eyebrow {
@@ -1477,7 +1540,7 @@ p {
   grid-template-columns: minmax(0, 0.82fr) minmax(300px, 0.72fr);
   gap: clamp(24px, 5vw, 56px);
   align-items: center;
-  background: #fff;
+  background: var(--white);
 }
 
 .feature-copy p:not(.eyebrow) {
@@ -1507,20 +1570,20 @@ p {
   gap: 18px;
   padding-top: clamp(10px, 2vw, 22px);
   padding-bottom: clamp(28px, 4vw, 48px);
-  background: #fff;
+  background: var(--white);
 }
 
 .feature-strip.patient-feature-strip,
 .feature-strip.analysis-feature-strip,
 .feature-strip.konzept-feature-strip {
-  padding-top: clamp(54px, 7vw, 92px);
-  padding-bottom: clamp(54px, 7vw, 92px);
+  padding-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
   background: var(--soft-blue);
 }
 
 .feature-strip.profile-feature-strip {
-  padding-top: clamp(80px, 11vw, 140px);
-  padding-bottom: clamp(54px, 7vw, 92px);
+  padding-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
   background: var(--soft-blue);
 }
 
@@ -1533,7 +1596,7 @@ p {
   min-height: 132px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--white);
   padding: 22px 18px;
   text-align: center;
 }
@@ -1565,7 +1628,7 @@ p {
   background:
     radial-gradient(circle at 24% 28%, rgba(1, 161, 227, 0.16), transparent 22%),
     radial-gradient(circle at 70% 68%, rgba(1, 161, 227, 0.12), transparent 26%),
-    linear-gradient(160deg, #ffffff, var(--soft-blue));
+    linear-gradient(160deg, var(--white), var(--soft-blue));
   box-shadow: var(--shadow);
 }
 
@@ -1678,7 +1741,7 @@ p {
   display: flex;
   align-items: flex-end;
   padding: 0;
-  color: #fff;
+  color: var(--white);
 }
 
 .image-tile > img {
@@ -1735,7 +1798,7 @@ p {
 .image-tile span,
 .image-tile h2,
 .image-tile p {
-  color: #fff;
+  color: var(--white);
 }
 
 .image-tile span {
@@ -1743,7 +1806,7 @@ p {
 }
 
 .image-tile .tile-copy p {
-  color: #fff;
+  color: var(--white);
   text-shadow: 0 1px 18px rgba(0, 0, 0, 0.38);
 }
 
@@ -1752,7 +1815,7 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   background:
-    linear-gradient(180deg, #fff 0%, rgba(232, 242, 251, 0.9) 100%);
+    linear-gradient(180deg, var(--white) 0%, rgba(232, 242, 251, 0.9) 100%);
 }
 
 .icon-tile svg {
@@ -1793,7 +1856,7 @@ p {
 .abstract-contact {
   position: relative;
   padding: 18px;
-  background: linear-gradient(145deg, #fff, var(--soft-blue));
+  background: linear-gradient(145deg, var(--white), var(--soft-blue));
 }
 
 .abstract-timeline i,
@@ -2005,7 +2068,7 @@ p {
   grid-template-columns: minmax(0, 0.58fr) minmax(260px, 0.42fr);
   gap: 24px;
   align-items: center;
-  padding-block: clamp(32px, 5vw, 64px);
+  padding-block: var(--section-gap-tight);
   background: rgba(255, 255, 255, 0.58);
   border-block: 1px solid rgba(207, 229, 228, 0.8);
 }
@@ -2030,7 +2093,7 @@ p {
 .visual-placeholder {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--white);
   box-shadow: 0 12px 42px rgba(0, 62, 99, 0.08);
 }
 
@@ -2056,7 +2119,7 @@ p {
   height: 12px;
   border: 3px solid var(--aqua);
   border-radius: 50%;
-  background: #fff;
+  background: var(--white);
 }
 
 .visual-placeholder {
@@ -2131,7 +2194,7 @@ p {
   place-items: center;
   border: 1px solid rgba(1, 161, 227, 0.22);
   border-radius: 8px;
-  background: linear-gradient(180deg, #fff, var(--soft-blue));
+  background: linear-gradient(180deg, var(--white), var(--soft-blue));
   color: var(--aqua-dark);
   font-weight: 900;
   text-align: center;
@@ -2140,7 +2203,7 @@ p {
 .project-orbit span:first-child {
   grid-column: 1 / -1;
   background: var(--aqua);
-  color: #fff;
+  color: var(--white);
 }
 
 .profile-layout {
@@ -2165,7 +2228,7 @@ p {
 
 .text-drawer summary {
   padding: 18px 22px;
-  background: #fff;
+  background: var(--white);
   border-bottom: 1px solid var(--line);
   cursor: pointer;
   font-weight: 850;
@@ -2220,9 +2283,9 @@ p {
 }
 
 .site-footer {
-  padding: clamp(56px, 8vw, 96px) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad))) 18px;
-  background: #003e63;
-  color: #fff;
+  padding: var(--section-gap) max(var(--page-pad), calc((100vw - var(--page-max)) / 2 + var(--page-pad))) 18px;
+  background: var(--navy);
+  color: var(--white);
 }
 
 .footer-grid {
@@ -2265,8 +2328,8 @@ p {
   align-items: center;
   gap: 9px;
   border-radius: 6px;
-  background: #01a1e3;
-  color: #fff;
+  background: var(--aqua);
+  color: var(--white);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -2440,7 +2503,7 @@ p {
 /* ── kontakt.html ──────────────────────────────────────────── */
 
 .kontakt-haltung {
-  background: #003e63;
+  background: var(--navy);
 }
 
 .kontakt-haltung .eyebrow {
@@ -2448,7 +2511,7 @@ p {
 }
 
 .kontakt-haltung h2 {
-  color: #fff;
+  color: var(--white);
   max-width: 860px;
   margin-block: 12px 20px;
 }
@@ -2462,7 +2525,7 @@ p {
 }
 
 .kontakt-main {
-  background: #fff;
+  background: var(--white);
 }
 
 .kontakt-info {
@@ -2573,7 +2636,7 @@ p {
 .kontakt-form textarea {
   padding: 11px 14px;
   border: 1px solid var(--line);
-  background: #fff;
+  background: var(--white);
   color: var(--ink);
   font: inherit;
   font-size: var(--text-sm);
@@ -2595,7 +2658,7 @@ p {
   align-self: flex-start;
   padding: 13px 28px;
   background: var(--aqua-dark);
-  color: #fff;
+  color: var(--white);
   border: none;
   font: inherit;
   font-size: var(--text-sm);
@@ -2631,7 +2694,7 @@ p {
 
 .konzept-stat-section {
   background: var(--aqua-dark);
-  color: #fff;
+  color: var(--white);
 }
 
 .konzept-stat-block {
@@ -2658,7 +2721,7 @@ p {
 }
 
 .konzept-stat-copy h2 {
-  color: #fff;
+  color: var(--white);
   font-size: clamp(26px, 3.2vw, 46px);
   margin-block: 12px;
 }
@@ -2740,7 +2803,7 @@ p {
   grid-template-columns: minmax(0, 0.52fr) minmax(0, 0.48fr);
   gap: clamp(24px, 5vw, 72px);
   align-items: center;
-  background: #fff;
+  background: var(--white);
 }
 
 .konzept-image-band img {
@@ -2782,39 +2845,41 @@ p {
   }
 }
 
-/* ─── Adjacent same-background section spacing ─────────────────────────── */
-/* When two white-background sections follow each other, remove the top
-   padding of the second so content spacing stays visually consistent. */
+/* ─── Adjacent white-on-white section spacing ───────────────────────────── */
+/* Sections with background var(--soft-blue) or var(--navy) act as visual
+   separators. When two white (var(--bg)) sections follow each other without
+   a colored section in between, the second section uses --section-gap-tight
+   for padding-top instead of the full --section-gap. */
 
-/* profil.html */
+/* profil.html — white sections in sequence */
 .profile-timeline-section + .analysis-image-band {
-  padding-top: 0;
+  padding-top: var(--section-gap-tight);
 }
 
-/* impuls.html */
+/* impuls.html — white sections in sequence */
 .anni-gutachten + .analysis-image-band,
 .analysis-image-band + .anni-stance,
 .anni-stance + .anni-question {
-  padding-top: 0;
+  padding-top: var(--section-gap-tight);
 }
 
-/* aktuell.html */
+/* aktuell.html — white sections in sequence */
 .patient-chapters + .analysis-image-band,
 .analysis-image-band + .patient-trust {
-  padding-top: 0;
+  padding-top: var(--section-gap-tight);
 }
 
-/* analyse.html */
+/* analyse.html — white sections in sequence */
 .analysis-focus + .analysis-overview,
 .analysis-overview + .analysis-image-band,
 .analysis-image-band + .anni-stance {
-  padding-top: 0;
+  padding-top: var(--section-gap-tight);
 }
 
-/* konzept.html */
+/* konzept.html — white sections in sequence */
 .konzept-projects + .anni-stance,
 .anni-stance + .analysis-image-band {
-  padding-top: 0;
+  padding-top: var(--section-gap-tight);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2870,6 +2935,7 @@ p {
   .patient-text-grid,
   .patient-chapters,
   .patient-image-band,
+  .patient-psb-grid,
   .patient-tk-grid,
   .analysis-text-grid,
   .analysis-method-card,

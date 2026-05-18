@@ -3015,9 +3015,9 @@ p {
 
   .brand-logo img,
   .brand-logo svg {
-    height: 54px;
+    height: 64px;
     width: auto;
-    max-width: 220px;
+    max-width: 260px;
   }
 
   .brand-logo span {

@@ -16,7 +16,7 @@ return [
     'smtp_port'   => 587,
     'smtp_secure' => 'tls',   // 'tls' oder 'ssl'
     'smtp_user'   => 'info@patientensicherheit-gkv.de',
-    'smtp_pass'   => 'PS#diana_2026',
+    'smtp_pass'   => 'HIER_PASSWORT_EINTRAGEN',
     'smtp_from'   => 'info@patientensicherheit-gkv.de',
     'smtp_to'     => 'info@patientensicherheit-gkv.de',
 ];

@@ -586,18 +586,48 @@ function initHeroSlider() {
 }
 
 function initContactForm() {
-  const form = document.querySelector("#contactForm");
-  const status = document.querySelector("#formStatus");
-  if (!form || !status) return;
+  // Beide Formulare einbinden: Footer-Formular und ggf. separates Kontaktseiten-Formular
+  const pairs = [
+    { form: "#contactForm",       status: "#formStatus"       },
+    { form: "#contactFormFooter", status: "#formStatusFooter" },
+  ];
 
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
+  pairs.forEach(({ form: formSel, status: statusSel }) => {
+    const form   = document.querySelector(formSel);
+    const status = document.querySelector(statusSel);
+    if (!form || !status) return;
 
-    const formData = new FormData(form);
-    if (formData.get("website")) return;
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
 
-    status.textContent =
-      "Das Formular ist fuer den SMTP-Versand vorbereitet. Der Versand-Endpunkt wird im Deployment angebunden.";
+      const formData = new FormData(form);
+      if (formData.get("website")) return; // Honeypot
+
+      const btn = form.querySelector("button[type=submit]");
+      if (btn) btn.disabled = true;
+      status.textContent = "Wird gesendet …";
+      status.className   = "form-status";
+
+      try {
+        const response = await fetch("/api/contact.php", {
+          method: "POST",
+          body: formData,
+        });
+        const data = await response.json().catch(() => ({}));
+
+        if (response.ok && data.ok) {
+          status.textContent = "Vielen Dank! Ihre Nachricht wurde gesendet.";
+          status.classList.add("form-status--ok");
+          form.reset();
+        } else {
+          throw new Error(data.error || "Unbekannter Fehler");
+        }
+      } catch (err) {
+        status.textContent = err.message || "Die Nachricht konnte leider nicht gesendet werden. Bitte versuchen Sie es erneut.";
+        status.classList.add("form-status--error");
+        if (btn) btn.disabled = false;
+      }
+    });
   });
 }
 

@@ -489,7 +489,8 @@ input {
 }
 
 .profile-extra-grid .extra-icon,
-.anni-effects .extra-icon {
+.anni-effects .extra-icon,
+.patient-tk-grid .extra-icon {
   width: 28px;
   height: 28px;
   stroke: var(--aqua-dark);
@@ -2235,6 +2236,12 @@ p {
   font-size: clamp(34px, 5vw, 64px);
 }
 
+.footer-copy svg {
+  display: block;
+  margin-bottom: 16px;
+  max-width: 100%;
+}
+
 .footer-copy p:not(.eyebrow) {
   max-width: 560px;
   color: rgba(255, 255, 255, 0.78);
@@ -2335,6 +2342,12 @@ p {
   margin: 0;
   color: rgba(255, 255, 255, 0.78);
   font-size: 14px;
+}
+.form-status--ok {
+  color: #6ee7b7;
+}
+.form-status--error {
+  color: #fca5a5;
 }
 
 .honeypot {

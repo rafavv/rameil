@@ -1480,6 +1480,10 @@ input {
   background: var(--white);
 }
 
+.mobile-break {
+  display: none;
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--aqua);
@@ -3011,6 +3015,10 @@ p {
 
   .brand small {
     display: none;
+  }
+
+  .mobile-break {
+    display: block;
   }
 
   /* Profil: Download-Buttons volle Breite */

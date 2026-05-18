@@ -3013,6 +3013,30 @@ p {
     display: none;
   }
 
+  /* Profil: Download-Buttons volle Breite */
+  .profile-download {
+    flex-direction: column;
+  }
+  .profile-download a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Profil: Weitere Expertise – 2 breit oben, 3 gleich unten */
+  .profile-extra-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .profile-extra-grid article:nth-child(1),
+  .profile-extra-grid article:nth-child(2) {
+    grid-column: span 3;
+  }
+  .profile-extra-grid article:nth-child(3),
+  .profile-extra-grid article:nth-child(4),
+  .profile-extra-grid article:nth-child(5) {
+    grid-column: span 1;
+  }
+
   .brand-logo img,
   .brand-logo svg {
     height: 64px;

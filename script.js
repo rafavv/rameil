@@ -647,7 +647,7 @@ function observeReveals() {
         }
       });
     },
-    { threshold: 0.22 },
+    { threshold: 0.08, rootMargin: "0px 0px -40px 0px" },
   );
 
   reveals.forEach((item) => observer.observe(item));

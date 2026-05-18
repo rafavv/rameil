@@ -1138,7 +1138,11 @@ input {
 .analysis-pss-content a {
   color: var(--aqua-dark);
   word-break: break-all;
-  font-size: 11px;
+  font-size: 12px;
+}
+
+.analysis-pss-content .pss-title + p {
+  margin-top: -0.6em;
 }
 
 .analysis-pss-content a:hover {

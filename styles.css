@@ -3013,8 +3013,11 @@ p {
     display: none;
   }
 
-  .brand-logo img {
-    width: 170px;
+  .brand-logo img,
+  .brand-logo svg {
+    height: 44px;
+    width: auto;
+    max-width: 180px;
   }
 
   .brand-logo span {

@@ -1138,6 +1138,7 @@ input {
 .analysis-pss-content a {
   color: var(--aqua-dark);
   word-break: break-all;
+  font-size: 11px;
 }
 
 .analysis-pss-content a:hover {

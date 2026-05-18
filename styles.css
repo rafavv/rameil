@@ -488,7 +488,8 @@ input {
   hyphens: auto;
 }
 
-.profile-extra-grid .extra-icon {
+.profile-extra-grid .extra-icon,
+.anni-effects .extra-icon {
   width: 28px;
   height: 28px;
   stroke: var(--aqua-dark);

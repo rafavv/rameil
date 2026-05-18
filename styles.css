@@ -3047,9 +3047,15 @@ p {
 
   .brand-logo img,
   .brand-logo svg {
-    height: 64px;
+    height: 56px;
     width: auto;
-    max-width: 260px;
+    max-width: 200px;
+  }
+
+  .site-header {
+    gap: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
   }
 
   .brand-logo span {

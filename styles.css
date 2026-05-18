@@ -2865,7 +2865,8 @@ p {
 
 /* aktuell.html — white sections in sequence */
 .patient-chapters + .analysis-image-band,
-.analysis-image-band + .patient-trust {
+.analysis-image-band + .patient-trust,
+.patient-trust + .patient-psb {
   padding-top: var(--section-gap-tight);
 }
 

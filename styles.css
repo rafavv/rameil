@@ -1127,7 +1127,30 @@ input {
 
 .analysis-pss-content p {
   margin: 0 0 1.2em;
-  white-space: pre-wrap;
+}
+
+.analysis-pss-content .pss-title {
+  font-weight: 600;
+  color: var(--aqua-dark);
+  margin-bottom: 1.4em;
+}
+
+.analysis-pss-content a {
+  color: var(--aqua-dark);
+  word-break: break-all;
+}
+
+.analysis-pss-content a:hover {
+  text-decoration: underline;
+}
+
+.analysis-pss-content strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.analysis-pss-content em {
+  font-style: italic;
 }
 
 .pss-source-link {

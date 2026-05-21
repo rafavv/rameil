@@ -3,7 +3,7 @@ if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
 
 const PASSWORD_ENABLED = true;
-const SITE_PASSWORD = "diana";
+const SITE_PASSWORD = "blauesBlut2026!";
 
 // PSS-Daten — alle 22 Patientensicherheitssignale
 // Felder: number, title, date, url, content
@@ -19,6 +19,7 @@ Zielgruppe: Alle Einrichtungen mit Herzkatheterplätzen.
 Fall 2021-0035: Luftinjektion führt zu Herzstillstand mit nachfolgender Hirnschädigung und Tod.
 
 Durch das Thema PSS 1 erfährt man immerhin noch, daß offenkundig versehentlich Luft statt Kontrastmittel im Rahmen einer Herzkatheteruntersuchung injiziert wurde, mit nachfolgend tödlichem Ausgang. Auf der Internetseite der Deutschen Gesellschaft für Patientensicherheit findet sich die Erläuterung, die dem PSS Nr. 1 auf der TK-Seite fehlt: Bei einer Herzkatheteruntersuchung wurde versehentlich Luft statt Kontrastmittel injiziert, wodurch es zu einem Herzstillstand und schließlich zum Tod kam. Ursächlich hierfür war ein fehlender technischer Schutz vor Luftinjektionen.
+<a href="https://patientensicherheit.de/luft-statt-kontrastmittel-bei-der-herzkatheteruntersuchung/" target="_blank" rel="noopener">https://patientensicherheit.de/luft-statt-kontrastmittel-bei-der-herzkatheteruntersuchung/</a>
 
 Leider zeigt das PSS Nr. 1 eben genau das nicht, weil man als Leser überhaupt nicht erfährt, was genau passiert ist. Genauso wenig findet sich eine Angabe darüber, ob es sich um ein häufigeres oder seltenes Problem im Rahmen von Herzkatheteruntersuchungen handelt.
 
@@ -33,14 +34,18 @@ Bei der Kontrastmittelgabe werden mehrere Sicherheitsmaßnahmen routinemäßig u
     url: "https://www.tk.de/resource/blob/2151502/86c17154b1edc52cdb515b400e5c49c5/tk-pat-sich-info-nr-02-geburtseinleitung-data.pdf",
     content: `Die beschriebenen Fälle aus der Vergangenheit beschreiben Komplikationen, die sich auch bei allen anderen zur Geburtseinleitung zugelassenen Medikamenten zeigen. Cytotec im Off-Label-Use wies vor allem das Problem der ungenauen Dosierung auf, da es sich nicht sicher teilen und damit nicht sicher dosieren ließ.
 
-Seit 2017 ist das Misoprostol-Präparat Angusta EU-zugelassen und seit ca. 2018 in vielen Kliniken und Kreißsälen regulär im Einsatz – damit fällt der Off-Label-Use von Cytotec weg. Es bietet sich eine bessere Dosierungssicherheit sowie eine höhere Standardisierung und Rechtssicherheit für Kliniken.`
+<p style="margin-left: 24px;">Seit 2017 ist das Misoprostol-Präparat Angusta EU-zugelassen und seit ca. 2018 in vielen Kliniken und Kreißsälen regulär im Einsatz – damit fällt der Off-Label-Use von Cytotec weg. Es bietet sich eine bessere Dosierungssicherheit sowie eine höhere Standardisierung und Rechtssicherheit für Kliniken.</p>`
   },
   {
     number: "PSS 03",
     title: "Fremdkörper im Patienten nach operativen Eingriffen",
     date: "10/2023",
     url: "https://www.tk.de/resource/blob/2151504/26b7d9c82bb84bc5754ec2d8f588f9b8/tk-pat-sich-info-nr-03-fremdkoerper-data.pdf",
-    content: `Gemeinsam betrachtet mit PSS Nr. 11 – Verbleib von Katheter- bzw. Drainageteilen im Patientenkörper (08/2024).
+    content: `<strong>PSS Nr. 3 – Fremdkörper im Patienten nach operativen Eingriffen (10/2023)</strong>
+<a href="https://www.tk.de/resource/blob/2151504/26b7d9c82bb84bc5754ec2d8f588f9b8/tk-pat-sich-info-nr-03-fremdkoerper-data.pdf" target="_blank" rel="noopener">TK-Link PSS 03</a>
+
+<strong>PSS Nr. 11 – Verbleib von Katheter- bzw. Drainageteilen im Patientenkörper (08/2024)</strong>
+<a href="https://www.tk.de/resource/blob/2178316/13317cf0e84e73c27a1cbb84114a8b6a/tk-pat-sich-info-nr-11-katheterteile-im-patienten-data.pdf" target="_blank" rel="noopener">TK-Link PSS 11</a>
 
 Trotz aller installierten Maßnahmen und Zählprotokolle werden solche Fälle immer wieder auftreten. Es handelt sich hierbei um ein sog. Never-event, somit ein voll beherrschbares Risiko und damit eine Umkehr der Beweislast.
 
@@ -124,17 +129,6 @@ Link 5 führt zu einem Dekubitusratgeber.
 Link 6 führt auf die Seite Pschyrembel-online zur Definition der Braden-Skala – vollständige Inhalte nur gegen kostenpflichtiges Abo.`
   },
   {
-    number: "PSS 11",
-    title: "Verbleib von Katheter- bzw. Drainageteilen im Patientenkörper",
-    date: "08/2024",
-    url: "https://www.tk.de/resource/blob/2178316/13317cf0e84e73c27a1cbb84114a8b6a/tk-pat-sich-info-nr-11-katheterteile-im-patienten-data.pdf",
-    content: `Gemeinsam betrachtet mit PSS Nr. 3 – Fremdkörper im Patienten nach operativen Eingriffen (10/2023).
-
-Trotz aller installierten Maßnahmen und Zählprotokolle werden solche Fälle immer wieder auftreten. Es handelt sich hierbei um ein sog. Never-event, somit ein voll beherrschbares Risiko und damit eine Umkehr der Beweislast.
-
-Bei PSS Nr. 11 funktioniert Link 1 nicht, Link 2 führt zu einem Abstract aus 2002 des British Journal of Anaesthesia und Link 3 zeigt einen Artikel von 2010 aus der Zeitschrift für Herz-, Thorax- und Gefäßchirurgie – zugänglich nur gegen ein kostenpflichtiges Abo.`
-  },
-  {
     number: "PSS 12",
     title: "Eingriffsverwechselungen",
     date: "08/2024",
@@ -189,7 +183,7 @@ Link 4: WHO-Seite, World-Patient-Safety-Day 17.09.2025 – keinerlei Bezug zum T
     title: "Erhöhung der Sicherheit während der Schwangerschaft",
     date: "06/2025",
     url: "https://www.tk.de/resource/blob/2197780/b039f91af592ba1360af457f8a1839fd/tk-pat-sich-info-nr-16-erhoehung-der-sicherheit-waehrend-der-schwangerschaft-data.pdf",
-    content: `Link 1: Übersichtsarbeit von 2009 im Deutschen Ärzteblatt – zum Zeitpunkt der Veröffentlichung 14 Jahre alt, nur mit Registrierung vollständig lesbar.
+    content: `Link 1: Übersichtsarbeit von 2009 im Deutschen Ärzteblatt – <strong>z</strong>um Zeitpunkt der Veröffentlichung 14 Jahre alt, nur mit Registrierung vollständig lesbar.
 
 Link 2: Deutsches Ärzteblatt 2023, Schwangerschaftsnachsorgeprogramm – das PSS Nr. 16 bezieht sich auf die Sicherheit während der Schwangerschaft, nicht auf eine Nachsorge.
 
@@ -206,7 +200,7 @@ Link 4: Gelbe Liste, Langzeiteffekte hypertensiver Schwangerschaftserkrankungen 
 
 Fall 2 – Fehlende Aufklärung und zu späte ärztliche Betreuung bei bekannter Risikogeburt: Keinerlei Informationen zum Jahr der Entbindung, Größe der Geburtsklinik, Alter der werdenden Mutter, Anzahl vorangegangener Schwangerschaften und Entbindungen.
 
-Fall 3 – Patientin stirbt an Blutung wegen zu später Verlegung vom Geburtshaus ins Krankenhaus: Als Ursache wird hier eine Uterusatonie nur vermutet. Bei einer Frau, die unter der Geburt oder unmittelbar danach verstirbt, handelt es sich nicht um eine natürliche Todesursache – die Staatsanwaltschaft schaltet sich ein, es wird ein rechtsmedizinisches Gutachten in Auftrag gegeben.
+Fall 3 – Patientin stirbt an Blutung wegen später Verlegung vom Geburtshaus ins Krankenhaus: Als Ursache wird hier eine Uterusatonie nur vermutet. Bei einer Frau, die unter der Geburt oder unmittelbar danach verstirbt, handelt es sich nicht um eine natürliche Todesursache – die Staatsanwaltschaft schaltet sich ein, es wird ein rechtsmedizinisches Gutachten in Auftrag gegeben.
 
 Fall 4 – Geburtseinleitung: Keinerlei Informationen zu Geburtsjahr, Klinik, Patientin, Schwangerschaftswoche zum Zeitpunkt der Einleitung, welche Art von Diabetes vorlag. Keine Angaben zur Dauer der Einleitung und zum kindlichen Outcome.
 
@@ -220,7 +214,7 @@ Link 2–6 sind ausnahmslos verlinkte Leitlinien zu geburtshilflichen Themen, wo
     number: "PSS 18",
     title: "Sichere Gesundheitsversorgung von Kindern",
     date: "09/2025",
-    url: "https://www.tk.de/resource/blob/2203520/db59dd5fd7c236cf68ee3b872e812904/tk-pat-sich-info-nr-18-sichere-gesundheitsversorgung-von-kindern-data.pdf",
+    url: "https://www.tk.de/resource/blob/tk-pat-sich-info-nr-18-sichere-gesundheitsversorgung-von-kindern-data.pdf",
     content: `PSS Nr. 18 hat den gleichen Kinderfall wie PSS Nr. 7 – dieser hätte wahrscheinlich auch unter Berücksichtigung aller Laborparameter in die PSS Nr. 5 eingeordnet werden können.
 
 Fall 4 – Schwerhörigkeit bei Kind mehr als 2 Jahre nicht erkannt: Das Kind hätte so oder so Hörgeräte benötigt. Unklar bleibt, um welche Art der Hörstörung es überhaupt geht.
@@ -236,7 +230,13 @@ Link 5 – Deutsche Gesellschaft für Kinderchirurgie.
 Link 6 – Eltern-Bildung – kurzer Artikel, der am Zielpublikum vorbeigeht.
 Link 7 – Einladung zu einem Webinar von 2022 – drei Jahre vor Erscheinen des PSS Nr. 18.
 Link 8 – Abstract einer pädiatrischen Studie in Australien, nicht frei zugänglich.
-Link 9 – TK-eigene Seite „Bauchschmerzen im Kindesalter" – Informationsseite für medizinische Laien.`
+Link 9 – TK-eigene Seite „Bauchschmerzen im Kindesalter" – Informationsseite für medizinische Laien.
+
+Unter Prävention findet sich Martha's Rule, die im britischen NHS eingeführt wurde. In Deutschland existiert kein bundesweit einheitliches Recht für Angehörige oder Patienten, selbst ein medizinisches Notfall-Team zu aktivieren. Der Fall Anni zeigt allerdings sehr beispielhaft, daß selbst begleitende medizinische Expertise nicht vor folgenschweren Behandlungsfehlern schützt.
+
+Prinzipiell verbietet das deutsche Krankenhausrecht solche Modelle nicht. Allerdings stellt sich die Frage nach Finanzierung und zusätzlichem Personal und Rufsystemen. Haftungsfragen sind zu klären. Die Krankenhausorganisation ist in Deutschland stark länder- und trägerabhängig. In Deutschland besteht zudem ein anders gelebter Klinikalltag, Hierarchien sind hier stärker ausgeprägt.
+
+Konzepte dieser Art werden diskutiert. Allerdings sollte hierbei bedacht werden, daß man allein schon aus ethischen Gründen solche Konzepte nicht allein auf Kinder beschränken kann. Gesundheitsökonomische Faktoren wie der enorme Kostenaufwand, der vermutlich hoch-anteilig zu Lasten der GKV gehen würde, sollten bedacht werden. Überlegt werden sollte daher, ob andere Maßnahmen, wie gemeinsame Projekte mit Patientensicherheitsbeauftragten, unter Einbeziehung bestimmter medizinischer Fachrichtungen, durch regelmäßige Schulungen, präventive Lernfälle etc. zumindest aktuell effektiver, kostengünstiger und schneller zu realisieren sind.`
   },
   {
     number: "PSS 19",
@@ -272,7 +272,9 @@ Link 9: Gebührenpflichtige Lernplattform Thieme via medici.`
 
 Die nachfolgenden 7 Fälle beziehen sich jedoch nur auf „Unterlassung oder unvollständige Befunderhebung" und „Fehleinschätzung von Befunden" – was ein individuelles Fehlverhalten darstellt.
 
-Fall 1 (Keine Befundübermittlung trotz Verdacht auf Brustkrebs), Fall 2 (Implantat nach Brustkrebs-Op freiliegend), Fall 3 (Klinikum hat vergessen über Tumor zu informieren), Fall 4 (Hirntumor 3 Jahre lang nicht erkannt), Fall 5 (Verzögerte Diagnostik eines Plattenepithelkarzinoms), Fall 6 (Tumor bei kindlicher U-Untersuchung nicht erkannt) und Fall 7 (Rektum-Karzinom nicht erkannt) – alle weisen erhebliche Lücken in der Falldarstellung auf. Die Fallbeschreibung von Fall 7 endet inmitten eines Satzes.
+Fall 1 (Keine Befundübermittlung trotz Verdacht auf Brustkrebs), Fall 2 (Implantat nach Brustkrebs-Op freiliegend), Fall 3 (Klinikum hat vergessen über Tumor zu informieren), Fall 4 (Hirntumor 3 Jahre lang nicht erkannt), Fall 6 (Tumor bei kindlicher U-Untersuchung nicht erkannt) und Fall 7 (Rektum-Karzinom nicht erkannt) – alle weisen erhebliche Lücken in der Falldarstellung auf. Die Fallbeschreibung von Fall 7 endet inmitten eines Satzes.
+
+<p style="margin-left: 24px;">Fall 5 (Verzögerte Diagnostik eines Plattenepithelkarzinoms) – auch hier fehlen wesentliche Angaben zur Falldarstellung.</p>
 
 Wichtige Verlinkungen/Literatur: 13 Links, darunter Kongressankündigungen und Homepages von Fachgesellschaften – überwiegend ohne direkten inhaltlichen Bezug zu den geschilderten Fällen.`
   },

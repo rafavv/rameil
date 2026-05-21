@@ -464,8 +464,9 @@ function loadPssAccordions() {
       const content = document.createElement("div");
       content.className = "analysis-pss-content";
 
-      const text = document.createElement("p");
-      text.textContent = item.content;
+      const text = document.createElement("div");
+      text.innerHTML = item.content.replace(/\n\n/g, "</p><p>").replace(/\n/g, "<br>");
+      if (!text.querySelector("p")) text.innerHTML = "<p>" + text.innerHTML + "</p>";
       content.append(text);
 
       if (item.url) {

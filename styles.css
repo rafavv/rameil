@@ -1407,6 +1407,8 @@ input {
   max-width: none;
   font-size: clamp(44px, 6.2vw, 82px);
   line-height: 1.02;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .hero-copy-over-video .eyebrow {

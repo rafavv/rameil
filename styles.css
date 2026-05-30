@@ -3029,6 +3029,10 @@ p {
 }
 
 @media (max-width: 560px) {
+  .hero-copy-over-video h1 {
+    font-size: 26px !important;
+  }
+
   .password-row {
     grid-template-columns: 1fr;
   }

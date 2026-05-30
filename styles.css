@@ -2940,6 +2940,10 @@ p {
     max-width: none;
   }
 
+  .hero-copy-over-video h1 {
+    font-size: clamp(34px, 8vw, 44px);
+  }
+
   .profile-layout,
   .intro-grid,
   .document-list,

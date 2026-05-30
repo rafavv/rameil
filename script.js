@@ -390,7 +390,12 @@ passwordForm?.addEventListener("submit", (event) => {
     return;
   }
 
-  passwordHint.textContent = "Das Passwort stimmt noch nicht.";
+  passwordHint.textContent = "Falsches Passwort – bitte erneut versuchen.";
+  passwordHint.classList.add("error");
+  passwordInput.classList.remove("shake");
+  void passwordInput.offsetWidth; // reflow to restart animation
+  passwordInput.classList.add("shake");
+  passwordInput.addEventListener("animationend", () => passwordInput.classList.remove("shake"), { once: true });
   passwordInput.select();
 });
 

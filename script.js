@@ -361,8 +361,15 @@ const documents = [
 const passwordScreen = document.querySelector("#passwordScreen");
 const passwordForm = document.querySelector("#passwordForm");
 const passwordInput = document.querySelector("#passwordInput");
-const passwordHint = document.querySelector("#passwordHint");
 const siteShell = document.querySelector("#siteShell");
+
+let passwordHint = document.querySelector("#passwordHint");
+if (!passwordHint && passwordForm) {
+  passwordHint = document.createElement("p");
+  passwordHint.id = "passwordHint";
+  passwordHint.className = "password-hint";
+  passwordForm.appendChild(passwordHint);
+}
 
 function unlockSite() {
   passwordScreen.hidden = true;

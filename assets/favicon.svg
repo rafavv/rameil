@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#003e63"/>
-  <circle cx="11" cy="16" r="9.5" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
-  <circle cx="21" cy="16" r="9.5" fill="none" stroke="#01a1e3" stroke-width="1.5"/>
-  <clipPath id="fc"><circle cx="11" cy="16" r="9.5"/></clipPath>
-  <circle cx="21" cy="16" r="9.5" fill="#01a1e3" opacity="0.25" clip-path="url(#fc)"/>
+  <circle cx="11.5" cy="16" r="10" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="2"/>
+  <circle cx="20.5" cy="16" r="10" fill="none" stroke="#01a1e3" stroke-width="2"/>
+  <clipPath id="fc"><circle cx="11.5" cy="16" r="10"/></clipPath>
+  <circle cx="20.5" cy="16" r="10" fill="#01a1e3" opacity="0.3" clip-path="url(#fc)"/>
 </svg>

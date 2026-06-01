@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 92">
+  <circle cx="28" cy="46" r="30" fill="none" stroke="#003e63" stroke-width="2.5"/>
+  <circle cx="52" cy="46" r="30" fill="none" stroke="#01a1e3" stroke-width="2.5"/>
+  <clipPath id="logoClip"><circle cx="28" cy="46" r="30"/></clipPath>
+  <circle cx="52" cy="46" r="30" fill="#01a1e3" opacity="0.15" clip-path="url(#logoClip)"/>
+  <text x="98" y="52" font-family="Urbanist,system-ui,sans-serif" font-weight="300" font-size="48" fill="#003e63">Dr. Diana Rameil</text>
+  <text x="100" y="82" font-family="Urbanist,system-ui,sans-serif" font-weight="300" font-size="28" fill="#01a1e3" letter-spacing="2">LL.M., M.A.</text>
+</svg>

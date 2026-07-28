@@ -1,8 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 92">
-  <circle cx="28" cy="46" r="30" fill="none" stroke="#003e63" stroke-width="2.5"/>
-  <circle cx="52" cy="46" r="30" fill="none" stroke="#01a1e3" stroke-width="2.5"/>
-  <clipPath id="logoClip"><circle cx="28" cy="46" r="30"/></clipPath>
-  <circle cx="52" cy="46" r="30" fill="#01a1e3" opacity="0.15" clip-path="url(#logoClip)"/>
-  <text x="98" y="52" font-family="Urbanist,system-ui,sans-serif" font-weight="300" font-size="48" fill="#003e63">Dr. Diana Rameil</text>
-  <text x="100" y="82" font-family="Urbanist,system-ui,sans-serif" font-weight="300" font-size="28" fill="#01a1e3" letter-spacing="2">LL.M., M.A.</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 560 92">
+  <!-- Generator: Adobe Illustrator 30.4.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 226)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #003e63;
+        font-size: 48px;
+      }
+
+      .st3, .st4 {
+        font-family: Helvetica-Light, Helvetica;
+        font-weight: 300;
+      }
+
+      .st3, .st4, .st5 {
+        isolation: isolate;
+      }
+
+      .st1 {
+        stroke: #01a1e3;
+      }
+
+      .st1, .st2 {
+        stroke-width: 2.5px;
+      }
+
+      .st4 {
+        font-size: 28px;
+        letter-spacing: 0em;
+      }
+
+      .st4, .st5 {
+        fill: #01a1e3;
+      }
+
+      .st6 {
+        clip-path: url(#clippath);
+      }
+
+      .st5 {
+        opacity: .2;
+      }
+
+      .st2 {
+        stroke: #003e63;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="st0" cx="28" cy="46" r="30"/>
+    </clipPath>
+  </defs>
+  <circle class="st2" cx="28" cy="46" r="30"/>
+  <circle class="st1" cx="52" cy="46" r="30"/>
+  <g class="st6">
+    <circle class="st5" cx="52" cy="46" r="30"/>
+  </g>
+  <text class="st3" transform="translate(98 52)"><tspan x="0" y="0">Dr. Diana Rameil</tspan></text>
+  <text class="st4" transform="translate(100 82)"><tspan x="0" y="0">LL.M., M.A.</tspan></text>
 </svg>

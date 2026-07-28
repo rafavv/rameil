@@ -1,2 +1,5 @@
 # SMTP-Zugangsdaten – niemals ins Repository einchecken
 api/config.php
+
+# Besucherprotokoll-Passwort – niemals ins Repository einchecken
+log-config.php

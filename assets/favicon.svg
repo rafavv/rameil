@@ -27,10 +27,10 @@
       }
     </style>
   </defs>
-  <rect class="st0" width="84" height="84" rx="6" ry="6"/>
+  <rect class="st0" width="84.5" height="83.8"/>
   <g>
-    <circle class="st1" cx="28" cy="42" r="30"/>
-    <circle class="st2" cx="52" cy="42" r="30"/>
-    <circle class="st3" cx="52" cy="42" r="30"/>
+    <circle class="st1" cx="26" cy="42" r="30"/>
+    <circle class="st2" cx="50" cy="42" r="30"/>
+    <circle class="st3" cx="50" cy="42" r="30"/>
   </g>
 </svg>

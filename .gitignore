@@ -3,3 +3,9 @@ api/config.php
 
 # Besucherprotokoll-Passwort – niemals ins Repository einchecken
 log-config.php
+
+# Seitenschutz-Passwort – niemals ins Repository einchecken
+api/site-password.php
+
+# Besucher-Log (enthaelt IP-Adressen) – niemals ins Repository einchecken
+visits.log

@@ -3,7 +3,6 @@ if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 window.addEventListener('beforeunload', () => window.scrollTo(0, 0));
 
 const PASSWORD_ENABLED = true;
-const SITE_PASSWORD = "blauesBlut2026!";
 
 // PSS-Daten — alle 22 Patientensicherheitssignale
 // Felder: number, title, date, url, content
@@ -389,21 +388,41 @@ if (!PASSWORD_ENABLED || sessionStorage.getItem("dr-site-unlocked") === "true") 
   unlockSite();
 }
 
-passwordForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  if (passwordInput.value === SITE_PASSWORD) {
-    unlockSite();
-    return;
-  }
-
-  passwordHint.textContent = "Falsches Passwort – bitte erneut versuchen.";
+function showPasswordError(message) {
+  passwordHint.textContent = message;
   passwordHint.classList.add("error");
   passwordInput.classList.remove("shake");
   void passwordInput.offsetWidth; // reflow to restart animation
   passwordInput.classList.add("shake");
   passwordInput.addEventListener("animationend", () => passwordInput.classList.remove("shake"), { once: true });
   passwordInput.select();
+}
+
+passwordForm?.addEventListener("submit", async (event) => {
+  event.preventDefault();
+
+  const submitButton = passwordForm.querySelector("button[type='submit']");
+  submitButton && (submitButton.disabled = true);
+
+  try {
+    const response = await fetch("/api/check-password.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: passwordInput.value }),
+    });
+    const data = await response.json();
+
+    if (data.ok) {
+      unlockSite();
+      return;
+    }
+
+    showPasswordError("Falsches Passwort – bitte erneut versuchen.");
+  } catch (error) {
+    showPasswordError("Verbindung fehlgeschlagen – bitte erneut versuchen.");
+  } finally {
+    submitButton && (submitButton.disabled = false);
+  }
 });
 
 async function loadTextBlocks() {
